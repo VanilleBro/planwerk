@@ -98,19 +98,38 @@ jobs:
         run: |
           set -e
 
-          echo "Gradle version:"
+          echo "===== JAVA ====="
+          java -version
+
+          echo "===== GRADLE ====="
           ./gradlew --version
 
-          echo "Cleaning project..."
-          ./gradlew clean --no-daemon
+          echo "===== GRADLE PROPERTIES ====="
+          cat gradle/wrapper/gradle-wrapper.properties
 
-          echo "Building Debug APK..."
+          echo "===== PROJECT FILES ====="
+          find . -maxdepth 3 -type f \( \
+            -name "build.gradle" -o \
+            -name "build.gradle.kts" -o \
+            -name "gradle.properties" \
+          \) -print
+
+          echo "===== BUILD.GRADLE ====="
+          cat build.gradle 2>/dev/null || true
+
+          echo "===== APP BUILD.GRADLE ====="
+          cat app/build.gradle 2>/dev/null || true
+
+          echo "===== GRADLE CLEAN ====="
+          ./gradlew clean --no-daemon --stacktrace
+
+          echo "===== APK BUILD ====="
           ./gradlew assembleDebug \
             --no-daemon \
             --no-parallel \
             --no-build-cache \
-            --refresh-dependencies
-
+            --refresh-dependencies \
+            --stacktrace
       # ----------------------------------------
       # Upload APK
       # ----------------------------------------

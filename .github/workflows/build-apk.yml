@@ -48,3 +48,4 @@ jobs:
           name: planwerk-app
           path: android/app/build/outputs/apk/debug/app-debug.apk
 
+# Trigger new build

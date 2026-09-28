@@ -38,11 +38,16 @@ jobs:
           echo "[]" > android/app/src/main/assets/capacitor.plugins.json
           npx cap sync android
 
+      - name: Clean Gradle Caches
+        run: rm -rf ~/.gradle/caches/
+
       - name: Build APK with Gradle
+        env:
+          GRADLE_OPTS: "-Dorg.gradle.daemon=false -Dorg.gradle.parallel=false -Dorg.gradle.jvmargs=\"-Xmx2048m -Dfile.encoding=UTF-8\""
         run: |
           cd android
           chmod +x gradlew
-          ./gradlew assembleDebug --no-daemon --no-parallel
+          ./gradlew clean assembleDebug --no-daemon --no-parallel
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4

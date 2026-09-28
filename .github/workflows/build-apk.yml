@@ -16,7 +16,7 @@ jobs:
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
-          java-version: '17'
+          java-version: '21'
           distribution: 'temurin'
 
       - name: Set up Node.js
@@ -37,7 +37,6 @@ jobs:
           mkdir -p android/app/src/main/assets
           echo "[]" > android/app/src/main/assets/capacitor.plugins.json
           npx cap sync android
-          sed -i 's|distributionUrl=.*|distributionUrl=https\\://services.gradle.org/distributions/gradle-8.7-all.zip|' android/gradle/wrapper/gradle-wrapper.properties
 
       - name: Build APK with Gradle
         env:
@@ -46,6 +45,7 @@ jobs:
         run: |
           cd android
           chmod +x gradlew
+          ./gradlew wrapper --gradle-version 8.7
           ./gradlew assembleDebug --no-daemon --no-parallel --no-build-cache --refresh-dependencies
 
       - name: Upload APK Artifact
@@ -53,3 +53,4 @@ jobs:
         with:
           name: planwerk-app
           path: android/app/build/outputs/apk/debug/app-debug.apk
+

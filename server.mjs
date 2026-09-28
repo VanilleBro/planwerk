@@ -17,18 +17,21 @@ app.use(express.static(__dirname));
 app.use(express.json());
 
 // Auf Vercel ist nur das /tmp-Verzeichnis schreibbar
-const DATA_FILE = process.env.VERCEL 
-    ? path.join('/tmp', 'timetable_cache.json') 
+const DATA_FILE = process.env.VERCEL
+    ? path.join('/tmp', 'timetable_cache.json')
     : path.join(process.cwd(), 'timetable_cache.json');
 
 // ==========================================
-// DEINE ZUGANGSDATEN (Anno-Gymnasium Siegburg)
+// DEINE STANDARD-ZUGANGSDATEN (Anno-Gymnasium Siegburg)
 // ==========================================
 const school = "anno-gym-siegburg";
 const untisUsername = "EF";
 const untisPassword = "580292Qa";
 const untisServer = "anno-gym-siegburg.webuntis.com";
 // ==========================================
+
+const DEFAULT_SETTINGS = { hiddenCourses: {}, eventsDisabled: false };
+let notifiedKeys = new Set();
 
 function loadCachedData() {
     try {
@@ -50,9 +53,19 @@ function saveCachedData(data) {
     }
 }
 
-const localDatabase = loadCachedData();
-const DEFAULT_SETTINGS = { hiddenCourses: {}, eventsDisabled: false };
-let notifiedKeys = new Set();
+// Hilfsfunktion: Ermittelt den User-Key aus dem Authorization Header, Request Body oder Query Parameter
+function getUserKey(req) {
+    const authHeader = req.headers.authorization;
+    if (authHeader && authHeader.startsWith('Bearer ')) {
+        const token = authHeader.split(' ')[1];
+        if (token.startsWith('token_')) {
+            return token.replace('token_', '').toLowerCase();
+        }
+        return token.toLowerCase();
+    }
+    const username = req.body?.username || req.query?.username || untisUsername;
+    return username.toLowerCase();
+}
 
 // Sendet eine echte Android-Benachrichtigung über Termux (nur lokal)
 function triggerAndroidNotification(title, message) {
@@ -74,9 +87,17 @@ function parseElements(list) {
 }
 
 // Kerngeschäft: Stundenplan aus WebUntis abrufen
-async function fetchTimetableFromUntis() {
-    const userKey = untisUsername.toLowerCase();
-    const untis = new WebUntis(school, untisUsername, untisPassword, untisServer);
+async function fetchTimetableFromUntis(userKey = untisUsername.toLowerCase()) {
+    const localDatabase = loadCachedData();
+    const userAccount = localDatabase[userKey] || {};
+    
+    // Falls der User eigene Untis-Zugangsdaten hat, nutzen wir diese, sonst Fallback auf Standard
+    const uName = userAccount.untisUsername || untisUsername;
+    const uPass = userAccount.untisPassword || untisPassword;
+    const uSchool = userAccount.school || school;
+    const uServer = userAccount.untisServer || untisServer;
+
+    const untis = new WebUntis(uSchool, uName, uPass, uServer);
 
     try {
         await untis.login();
@@ -142,23 +163,42 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "index.html"));
 });
 
-// API Routen
+// API Routen mit Multi-User-Unterstützung
 app.get("/api/auto-login", (req, res) => {
-    const userKey = untisUsername.toLowerCase();
+    const userKey = getUserKey(req);
+    const localDatabase = loadCachedData();
     const settings = localDatabase[userKey]?.settings || DEFAULT_SETTINGS;
-    res.json({ token: "fixed_local_token", settings, username: untisUsername });
+    res.json({ token: `token_${userKey}`, settings, username: userKey });
 });
 
 app.post("/api/login", (req, res) => {
-    const userKey = untisUsername.toLowerCase();
-    const settings = localDatabase[userKey]?.settings || DEFAULT_SETTINGS;
-    res.json({ token: "fixed_local_token", settings, username: untisUsername });
+    const username = req.body.username || untisUsername;
+    const password = req.body.password;
+    const userKey = username.toLowerCase();
+
+    const localDatabase = loadCachedData();
+    if (!localDatabase[userKey]) {
+        localDatabase[userKey] = { settings: DEFAULT_SETTINGS, password: password || "" };
+        saveCachedData(localDatabase);
+    }
+
+    const settings = localDatabase[userKey].settings || DEFAULT_SETTINGS;
+    res.json({ token: `token_${userKey}`, settings, username: userKey });
 });
 
 app.post("/api/register", (req, res) => {
-    const userKey = untisUsername.toLowerCase();
-    const settings = localDatabase[userKey]?.settings || DEFAULT_SETTINGS;
-    res.json({ token: "fixed_local_token", settings, username: untisUsername });
+    const username = req.body.username || untisUsername;
+    const password = req.body.password || "";
+    const userKey = username.toLowerCase();
+
+    const localDatabase = loadCachedData();
+    if (!localDatabase[userKey]) {
+        localDatabase[userKey] = { settings: DEFAULT_SETTINGS, password: password };
+        saveCachedData(localDatabase);
+    }
+
+    const settings = localDatabase[userKey].settings || DEFAULT_SETTINGS;
+    res.json({ token: `token_${userKey}`, settings, username: userKey });
 });
 
 app.post("/api/logout", (req, res) => {
@@ -166,13 +206,16 @@ app.post("/api/logout", (req, res) => {
 });
 
 app.get("/api/settings", (req, res) => {
-    const userKey = untisUsername.toLowerCase();
+    const userKey = getUserKey(req);
+    const localDatabase = loadCachedData();
     const settings = localDatabase[userKey]?.settings || DEFAULT_SETTINGS;
     res.json(settings);
 });
 
 app.post("/api/settings", (req, res) => {
-    const userKey = untisUsername.toLowerCase();
+    const userKey = getUserKey(req);
+    const localDatabase = loadCachedData();
+
     if (!localDatabase[userKey]) {
         localDatabase[userKey] = { timetable: [], settings: DEFAULT_SETTINGS };
     }
@@ -185,8 +228,9 @@ app.post("/api/settings", (req, res) => {
 });
 
 app.get("/api/timetable", async (req, res) => {
+    const userKey = getUserKey(req);
     try {
-        const data = await fetchTimetableFromUntis();
+        const data = await fetchTimetableFromUntis(userKey);
         res.json(data);
     } catch (error) {
         console.error("WebUntis Fehler:", error.message);

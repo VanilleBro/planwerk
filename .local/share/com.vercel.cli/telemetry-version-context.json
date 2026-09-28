@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "installations": {
+    "764b1df4c04da2234cb5d935d7232a51fc3a4bf7071fcda4bc59f82a1c215891": {
+      "collectedAt": 1790593687916,
+      "context": {
+        "status": "resolved",
+        "source": "detected",
+        "runtime": "node",
+        "manager": "package-manager",
+        "packageManager": "unknown",
+        "packageManagerAssumed": false,
+        "global": "unknown"
+      }
+    }
+  }
+}

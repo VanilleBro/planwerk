@@ -111,10 +111,34 @@ jobs:
           npx cap sync android
 
           echo "======================================"
+          echo "FIXING KOTLIN DEPENDENCIES"
+          echo "======================================"
+
+          cat >> android/app/build.gradle <<'EOF'
+
+          // Fix Kotlin stdlib duplicate classes
+          configurations.all {
+              resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+                  if (details.requested.group == 'org.jetbrains.kotlin') {
+                      details.useVersion '1.8.22'
+                  }
+              }
+          }
+          EOF
+
+          echo "Kotlin dependency resolution added."
+
+          echo "======================================"
           echo "ANDROID PROJECT"
           echo "======================================"
 
           ls -la android
+
+          echo "======================================"
+          echo "APP BUILD.GRADLE"
+          echo "======================================"
+
+          cat android/app/build.gradle
 
           echo "======================================"
           echo "GRADLE WRAPPER"
@@ -145,25 +169,17 @@ jobs:
           ./gradlew --version
 
           echo "======================================"
-          echo "GRADLE WRAPPER"
-          echo "======================================"
-
-          cat gradle/wrapper/gradle-wrapper.properties
-
-          echo "======================================"
-          echo "CLEARING GRADLE JAR CACHE"
+          echo "CLEARING GRADLE CACHE"
           echo "======================================"
 
           rm -rf ~/.gradle/caches/jars-9
-
           rm -rf ~/.gradle/caches/modules-2/files-2.1/org.bouncycastle
-
           rm -rf ~/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin
 
           echo "Gradle caches cleared."
 
           echo "======================================"
-          echo "GRADLE CLEAN"
+          echo "CLEAN"
           echo "======================================"
 
           ./gradlew clean \
@@ -172,7 +188,7 @@ jobs:
             --stacktrace
 
           echo "======================================"
-          echo "BUILDING DEBUG APK"
+          echo "BUILDING APK"
           echo "======================================"
 
           ./gradlew assembleDebug \

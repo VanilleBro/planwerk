@@ -2,7 +2,7 @@ name: Build Android APK
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -10,47 +10,113 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # ----------------------------------------
+      # Checkout
+      # ----------------------------------------
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      # ----------------------------------------
+      # Java 17
+      # ----------------------------------------
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
-          java-version: '21'
+          java-version: '17'
           distribution: 'temurin'
+          cache: gradle
 
+      # ----------------------------------------
+      # Node.js 20
+      # ----------------------------------------
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: npm
 
+      # ----------------------------------------
+      # Prepare Web Assets & Setup Capacitor
+      # ----------------------------------------
       - name: Prepare Web Assets & Setup Capacitor
         run: |
+          set -e
+
+          echo "Creating www directory..."
+          rm -rf www
           mkdir -p www
-          cp index.html www/ 2>/dev/null || true
-          cp -r *.js *.css manifest.json www/ 2>/dev/null || true
+
+          echo "Copying web assets..."
+
+          if [ -f index.html ]; then
+            cp index.html www/
+          else
+            echo "ERROR: index.html not found!"
+            exit 1
+          fi
+
+          # Copy JavaScript files if they exist
+          find . -maxdepth 1 -type f -name "*.js" -exec cp {} www/ \; || true
+
+          # Copy CSS files if they exist
+          find . -maxdepth 1 -type f -name "*.css" -exec cp {} www/ \; || true
+
+          # Copy manifest if it exists
+          if [ -f manifest.json ]; then
+            cp manifest.json www/
+          fi
+
+          echo "Initializing npm..."
           npm init -y
+
+          echo "Installing Capacitor..."
           npm install @capacitor/core @capacitor/cli @capacitor/android
+
+          echo "Removing old Android project..."
           rm -rf android
+
+          echo "Initializing Capacitor..."
           npx cap init Planwerk com.planwerk.app --web-dir www
+
+          echo "Adding Android platform..."
           npx cap add android
+
+          echo "Creating Capacitor plugin configuration..."
           mkdir -p android/app/src/main/assets
           echo "[]" > android/app/src/main/assets/capacitor.plugins.json
+
+          echo "Syncing Capacitor..."
           npx cap sync android
 
+      # ----------------------------------------
+      # Build APK
+      # ----------------------------------------
       - name: Build APK with Gradle
         env:
-          GRADLE_USER_HOME: ${{ github.workspace }}/.gradle
-          GRADLE_OPTS: "-Xmx3072m -Dfile.encoding=UTF-8 -Dorg.gradle.vfs.watch=false"
+          GRADLE_OPTS: "-Xmx4096m -Dfile.encoding=UTF-8 -Dorg.gradle.vfs.watch=false"
+        working-directory: android
         run: |
-          cd android
-          chmod +x gradlew
-          ./gradlew wrapper --gradle-version 8.7
-          ./gradlew assembleDebug --no-daemon --no-parallel --no-build-cache --refresh-dependencies
+          set -e
 
+          echo "Gradle version:"
+          ./gradlew --version
+
+          echo "Cleaning project..."
+          ./gradlew clean --no-daemon
+
+          echo "Building Debug APK..."
+          ./gradlew assembleDebug \
+            --no-daemon \
+            --no-parallel \
+            --no-build-cache \
+            --refresh-dependencies
+
+      # ----------------------------------------
+      # Upload APK
+      # ----------------------------------------
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
           name: planwerk-app
           path: android/app/build/outputs/apk/debug/app-debug.apk
-
+          if-no-files-found: error

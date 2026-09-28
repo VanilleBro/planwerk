@@ -22,7 +22,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
 
       - name: Prepare Web Assets & Setup Capacitor
         run: |
@@ -31,23 +31,21 @@ jobs:
           cp -r *.js *.css manifest.json www/ 2>/dev/null || true
           npm init -y
           npm install @capacitor/core @capacitor/cli @capacitor/android
+          rm -rf android
           npx cap init Planwerk com.planwerk.app --web-dir www
           npx cap add android
-          npx cap copy android
           mkdir -p android/app/src/main/assets
           echo "[]" > android/app/src/main/assets/capacitor.plugins.json
           npx cap sync android
 
-      - name: Clean Gradle Caches
-        run: rm -rf ~/.gradle/caches/
-
       - name: Build APK with Gradle
         env:
-          GRADLE_OPTS: "-Dorg.gradle.daemon=false -Dorg.gradle.parallel=false -Dorg.gradle.jvmargs=\"-Xmx2048m -Dfile.encoding=UTF-8\""
+          GRADLE_USER_HOME: ${{ github.workspace }}/.gradle
+          GRADLE_OPTS: "-Xmx3072m -Dfile.encoding=UTF-8 -Dorg.gradle.vfs.watch=false"
         run: |
           cd android
           chmod +x gradlew
-          ./gradlew clean assembleDebug --no-daemon --no-parallel
+          ./gradlew assembleDebug --no-daemon --no-parallel --no-build-cache --refresh-dependencies
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4

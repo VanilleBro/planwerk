@@ -20,11 +20,10 @@ jobs:
       # Java 17
       # ----------------------------------------
       - name: Set up Java
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           java-version: '17'
           distribution: 'temurin'
-          cache: gradle
 
       # ----------------------------------------
       # Node.js 20
@@ -33,103 +32,107 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: npm
 
       # ----------------------------------------
-      # Prepare Web Assets & Setup Capacitor
+      # Prepare Web Assets & Capacitor
       # ----------------------------------------
       - name: Prepare Web Assets & Setup Capacitor
         run: |
           set -e
 
-          echo "Creating www directory..."
+          echo "======================================"
+          echo "Preparing web assets"
+          echo "======================================"
+
           rm -rf www
           mkdir -p www
 
-          echo "Copying web assets..."
-
-          if [ -f index.html ]; then
-            cp index.html www/
-          else
+          if [ ! -f index.html ]; then
             echo "ERROR: index.html not found!"
             exit 1
           fi
 
-          # Copy JavaScript files if they exist
-          find . -maxdepth 1 -type f -name "*.js" -exec cp {} www/ \; || true
+          cp index.html www/
 
-          # Copy CSS files if they exist
+          find . -maxdepth 1 -type f -name "*.js" -exec cp {} www/ \; || true
           find . -maxdepth 1 -type f -name "*.css" -exec cp {} www/ \; || true
 
-          # Copy manifest if it exists
           if [ -f manifest.json ]; then
             cp manifest.json www/
           fi
 
-          echo "Initializing npm..."
-          npm init -y
+          echo "Contents of www:"
+          find www -maxdepth 2 -type f -print
 
-          echo "Installing Capacitor..."
+          echo "======================================"
+          echo "Installing Capacitor"
+          echo "======================================"
+
+          npm init -y
           npm install @capacitor/core @capacitor/cli @capacitor/android
 
-          echo "Removing old Android project..."
+          echo "======================================"
+          echo "Creating Android project"
+          echo "======================================"
+
           rm -rf android
 
-          echo "Initializing Capacitor..."
           npx cap init Planwerk com.planwerk.app --web-dir www
-
-          echo "Adding Android platform..."
           npx cap add android
 
-          echo "Creating Capacitor plugin configuration..."
-          mkdir -p android/app/src/main/assets
-          echo "[]" > android/app/src/main/assets/capacitor.plugins.json
+          echo "======================================"
+          echo "Syncing Capacitor"
+          echo "======================================"
 
-          echo "Syncing Capacitor..."
           npx cap sync android
+
+          echo "======================================"
+          echo "Android project created"
+          echo "======================================"
+
+          ls -la android
+          cat android/gradle/wrapper/gradle-wrapper.properties
 
       # ----------------------------------------
       # Build APK
       # ----------------------------------------
       - name: Build APK with Gradle
+        working-directory: android
         env:
           GRADLE_OPTS: "-Xmx4096m -Dfile.encoding=UTF-8 -Dorg.gradle.vfs.watch=false"
-        working-directory: android
         run: |
           set -e
 
-          echo "===== JAVA ====="
+          echo "======================================"
+          echo "JAVA VERSION"
+          echo "======================================"
           java -version
 
-          echo "===== GRADLE ====="
+          echo "======================================"
+          echo "GRADLE VERSION"
+          echo "======================================"
           ./gradlew --version
 
-          echo "===== GRADLE PROPERTIES ====="
+          echo "======================================"
+          echo "GRADLE WRAPPER"
+          echo "======================================"
           cat gradle/wrapper/gradle-wrapper.properties
 
-          echo "===== PROJECT FILES ====="
-          find . -maxdepth 3 -type f \( \
-            -name "build.gradle" -o \
-            -name "build.gradle.kts" -o \
-            -name "gradle.properties" \
-          \) -print
-
-          echo "===== BUILD.GRADLE ====="
-          cat build.gradle 2>/dev/null || true
-
-          echo "===== APP BUILD.GRADLE ====="
-          cat app/build.gradle 2>/dev/null || true
-
-          echo "===== GRADLE CLEAN ====="
+          echo "======================================"
+          echo "CLEAN"
+          echo "======================================"
           ./gradlew clean --no-daemon --stacktrace
 
-          echo "===== APK BUILD ====="
+          echo "======================================"
+          echo "BUILD APK"
+          echo "======================================"
           ./gradlew assembleDebug \
             --no-daemon \
             --no-parallel \
             --no-build-cache \
             --refresh-dependencies \
             --stacktrace
+
       # ----------------------------------------
       # Upload APK
       # ----------------------------------------

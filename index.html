@@ -151,7 +151,6 @@
         <div class="action-btns">
             <button class="action-btn primary" onclick="setAll(true)">Alle einblenden</button>
             <button class="action-btn" onclick="setAll(false)">Alle ausblenden</button>
-            <button class="action-btn" onclick="triggerTestNotification()">🔔 Test-Benachrichtigung</button>
         </div>
 
         <input id="search" type="search" placeholder="Kurse suchen (z. B. Mathe, SoWi)..." autocomplete="off">
@@ -204,7 +203,6 @@
         document.getElementById('toggle-events-master').checked = !userSettings.eventsDisabled;
         setupDynamicTabs();
         loadTimetable();
-        initPushNotifications();
 
         if (!refreshInterval) {
             refreshInterval = setInterval(() => {
@@ -230,64 +228,6 @@
             if (!isBackground) {
                 document.getElementById('week').innerHTML = `<div style="color:#ef5b61; padding: 15px; text-align:center;">Verbindung fehlgeschlagen: ${error.message}</div>`;
             }
-        }
-    }
-
-    // Push-Notifications Initialisierung & Service Worker
-    async function initPushNotifications() {
-        if (!('serviceWorker' in navigator) || !('PushManager' in window)) {
-            console.warn('Web Push wird von diesem Browser/Gerät nicht unterstützt.');
-            return;
-        }
-
-        try {
-            const reg = await navigator.serviceWorker.register('/sw.js');
-            const permission = await Notification.requestPermission();
-            if (permission !== 'granted') return;
-
-            const keyRes = await fetch('/api/vapid-key');
-            const { publicKey } = await keyRes.json();
-
-            let sub = await reg.pushManager.getSubscription();
-            if (!sub) {
-                sub = await reg.pushManager.subscribe({
-                    userVisibleOnly: true,
-                    applicationServerKey: urlBase64ToUint8Array(publicKey)
-                });
-            }
-
-            await fetch('/api/subscribe', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(sub)
-            });
-        } catch (err) {
-            console.error('Push-Registrierung fehlgeschlagen:', err);
-        }
-    }
-
-    function urlBase64ToUint8Array(base64String) {
-        const padding = '='.repeat((4 - base64String.length % 4) % 4);
-        const base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
-        const rawData = window.atob(base64);
-        const outputArray = new Uint8Array(rawData.length);
-        for (let i = 0; i < rawData.length; ++i) {
-            outputArray[i] = rawData.charCodeAt(i);
-        }
-        return outputArray;
-    }
-
-    async function triggerTestNotification() {
-        try {
-            const res = await fetch('/api/test-notification', { method: 'POST' });
-            const data = await res.json();
-            if (data.success) {
-                alert(`Test ausgelöst! ${data.count} Eigenarbeit(en) gefunden und gesendet.`);
-            } else {
-                alert('Fehler beim Auslösen der Test-Benachrichtigung: ' + (data.error || 'Unbekannter Fehler'));
-            }
-        } catch (err) {
-            alert('Fehler beim Auslösen der Test-Benachrichtigung.');
         }
     }
 

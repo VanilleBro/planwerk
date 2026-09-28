@@ -3,14 +3,23 @@ import { WebUntis } from 'webuntis';
 import fs from 'fs';
 import path from 'path';
 import { exec } from 'child_process';
+import { fileURLToPath } from 'url';
+
+// ESM Support für absolute Pfade in Node.js
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
-app.use(express.static('.'));
+// Statische Dateien und JSON Middleware
+app.use(express.static(__dirname));
 app.use(express.json());
 
-const DATA_FILE = path.join(process.cwd(), 'timetable_cache.json');
+// Auf Vercel ist nur das /tmp-Verzeichnis schreibbar
+const DATA_FILE = process.env.VERCEL 
+    ? path.join('/tmp', 'timetable_cache.json') 
+    : path.join(process.cwd(), 'timetable_cache.json');
 
 // ==========================================
 // DEINE ZUGANGSDATEN (Anno-Gymnasium Siegburg)
@@ -45,8 +54,9 @@ const localDatabase = loadCachedData();
 const DEFAULT_SETTINGS = { hiddenCourses: {}, eventsDisabled: false };
 let notifiedKeys = new Set();
 
-// Sendet eine echte Android-Benachrichtigung über Termux (falls Termux-API installiert ist)
+// Sendet eine echte Android-Benachrichtigung über Termux (nur lokal)
 function triggerAndroidNotification(title, message) {
+    if (process.env.VERCEL) return;
     const safeTitle = title.replace(/"/g, '\\"');
     const safeMsg = message.replace(/"/g, '\\"');
     exec(`termux-notification --title "${safeTitle}" --content "${safeMsg}" --priority high`, (err) => {
@@ -97,7 +107,7 @@ async function fetchTimetableFromUntis() {
         if (!localDatabase[userKey]) {
             localDatabase[userKey] = { settings: DEFAULT_SETTINGS };
         }
-        
+
         localDatabase[userKey].lastUpdated = new Date().toISOString();
         localDatabase[userKey].timetable = normalizedTimetable;
         saveCachedData(localDatabase);
@@ -126,6 +136,11 @@ async function fetchTimetableFromUntis() {
         throw error;
     }
 }
+
+// Hauptseite ausliefern
+app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "index.html"));
+});
 
 // API Routen
 app.get("/api/auto-login", (req, res) => {
@@ -179,12 +194,19 @@ app.get("/api/timetable", async (req, res) => {
     }
 });
 
-// 🔄 Automatischer Hintergrund-Poll im Server alle 30 Sekunden
-setInterval(() => {
-    fetchTimetableFromUntis().catch(err => {
-        console.error("Hintergrund-Abruf Fehler:", err.message);
-    });
-}, 30000);
+// Lokaler Serverstart & Polling (wird auf Vercel ignoriert)
+if (!process.env.VERCEL) {
+    setInterval(() => {
+        fetchTimetableFromUntis().catch(err => {
+            console.error("Hintergrund-Abruf Fehler:", err.message);
+        });
+    }, 30000);
 
-app.listen(PORT);
+    app.listen(PORT, () => {
+        console.log(`Server läuft lokal auf Port ${PORT}`);
+    });
+}
+
+// Export für Vercel Serverless Functions
+export default app;
 

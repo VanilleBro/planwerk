@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       # ----------------------------------------
-      # Java 17
+      # Java 21
       # ----------------------------------------
       - name: Set up Java
         uses: actions/setup-java@v5
@@ -34,14 +34,25 @@ jobs:
           node-version: '20'
 
       # ----------------------------------------
-      # Prepare Web Assets & Capacitor
+      # Prepare Web Assets & Setup Capacitor
       # ----------------------------------------
       - name: Prepare Web Assets & Setup Capacitor
         run: |
           set -e
 
           echo "======================================"
-          echo "Preparing web assets"
+          echo "JAVA VERSION"
+          echo "======================================"
+          java -version
+
+          echo "======================================"
+          echo "NODE VERSION"
+          echo "======================================"
+          node --version
+          npm --version
+
+          echo "======================================"
+          echo "PREPARING WEB ASSETS"
           echo "======================================"
 
           rm -rf www
@@ -65,32 +76,50 @@ jobs:
           find www -maxdepth 2 -type f -print
 
           echo "======================================"
-          echo "Installing Capacitor"
+          echo "INITIALIZING NPM"
           echo "======================================"
 
           npm init -y
+
+          echo "======================================"
+          echo "INSTALLING CAPACITOR"
+          echo "======================================"
+
           npm install @capacitor/core @capacitor/cli @capacitor/android
 
           echo "======================================"
-          echo "Creating Android project"
+          echo "CAPACITOR VERSIONS"
+          echo "======================================"
+
+          npx cap --version
+          npm list @capacitor/core @capacitor/cli @capacitor/android
+
+          echo "======================================"
+          echo "CREATING ANDROID PROJECT"
           echo "======================================"
 
           rm -rf android
 
           npx cap init Planwerk com.planwerk.app --web-dir www
+
           npx cap add android
 
           echo "======================================"
-          echo "Syncing Capacitor"
+          echo "SYNCING CAPACITOR"
           echo "======================================"
 
           npx cap sync android
 
           echo "======================================"
-          echo "Android project created"
+          echo "ANDROID PROJECT"
           echo "======================================"
 
           ls -la android
+
+          echo "======================================"
+          echo "GRADLE WRAPPER"
+          echo "======================================"
+
           cat android/gradle/wrapper/gradle-wrapper.properties
 
       # ----------------------------------------
@@ -106,32 +135,58 @@ jobs:
           echo "======================================"
           echo "JAVA VERSION"
           echo "======================================"
+
           java -version
 
           echo "======================================"
           echo "GRADLE VERSION"
           echo "======================================"
+
           ./gradlew --version
 
           echo "======================================"
           echo "GRADLE WRAPPER"
           echo "======================================"
+
           cat gradle/wrapper/gradle-wrapper.properties
 
           echo "======================================"
-          echo "CLEAN"
+          echo "CLEARING GRADLE JAR CACHE"
           echo "======================================"
-          ./gradlew clean --no-daemon --stacktrace
+
+          rm -rf ~/.gradle/caches/jars-9
+
+          rm -rf ~/.gradle/caches/modules-2/files-2.1/org.bouncycastle
+
+          rm -rf ~/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin
+
+          echo "Gradle caches cleared."
 
           echo "======================================"
-          echo "BUILD APK"
+          echo "GRADLE CLEAN"
           echo "======================================"
+
+          ./gradlew clean \
+            --no-daemon \
+            --no-build-cache \
+            --stacktrace
+
+          echo "======================================"
+          echo "BUILDING DEBUG APK"
+          echo "======================================"
+
           ./gradlew assembleDebug \
             --no-daemon \
             --no-parallel \
             --no-build-cache \
             --refresh-dependencies \
             --stacktrace
+
+          echo "======================================"
+          echo "BUILD FINISHED"
+          echo "======================================"
+
+          ls -lh app/build/outputs/apk/debug/
 
       # ----------------------------------------
       # Upload APK

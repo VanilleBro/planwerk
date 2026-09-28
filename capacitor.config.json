@@ -1,0 +1,11 @@
+{
+  "appId": "com.planwerk.app",
+  "appName": "Planwerk",
+  "webDir": "www",
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}
+

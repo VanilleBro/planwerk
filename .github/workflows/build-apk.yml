@@ -85,14 +85,14 @@ jobs:
           echo "INSTALLING CAPACITOR"
           echo "======================================"
 
-          npm install @capacitor/core @capacitor/cli @capacitor/android
+          npm install @capacitor/core @capacitor/cli @capacitor/android @capacitor/http
 
           echo "======================================"
           echo "CAPACITOR VERSIONS"
           echo "======================================"
 
           npx cap --version
-          npm list @capacitor/core @capacitor/cli @capacitor/android
+          npm list @capacitor/core @capacitor/cli @capacitor/android @capacitor/http
 
           echo "======================================"
           echo "CREATING ANDROID PROJECT"
@@ -101,6 +101,19 @@ jobs:
           rm -rf android
 
           npx cap init Planwerk com.planwerk.app --web-dir www
+
+          cat <<EOF > capacitor.config.json
+          {
+            "appId": "com.planwerk.app",
+            "appName": "Planwerk",
+            "webDir": "www",
+            "plugins": {
+              "CapacitorHttp": {
+                "enabled": true
+              }
+            }
+          }
+          EOF
 
           npx cap add android
 
@@ -213,3 +226,4 @@ jobs:
           name: planwerk-app
           path: android/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
+

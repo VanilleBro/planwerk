@@ -1,0 +1,7187 @@
+{
+  "ef": {
+    "lastUpdated": "2026-09-28T05:54:01.231Z",
+    "timetable": [
+      {
+        "id": 2765290,
+        "date": 20260928,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_BIg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 447,
+            "name": "KLR",
+            "longname": "Klüser"
+          }
+        ],
+        "su": [
+          {
+            "id": 6,
+            "name": "BI g1",
+            "longname": "Biologie gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 46,
+            "name": "Bio 2",
+            "longname": "Biologie 2"
+          }
+        ]
+      },
+      {
+        "id": 2765293,
+        "date": 20260930,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_BIg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 447,
+            "name": "KLR",
+            "longname": "Klüser"
+          }
+        ],
+        "su": [
+          {
+            "id": 6,
+            "name": "BI g1",
+            "longname": "Biologie gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 45,
+            "name": "Bio 1",
+            "longname": "Biologie 1"
+          }
+        ]
+      },
+      {
+        "id": 2765296,
+        "date": 20260930,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_BIg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 447,
+            "name": "KLR",
+            "longname": "Klüser"
+          }
+        ],
+        "su": [
+          {
+            "id": 6,
+            "name": "BI g1",
+            "longname": "Biologie gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 45,
+            "name": "Bio 1",
+            "longname": "Biologie 1"
+          }
+        ]
+      },
+      {
+        "id": 2766532,
+        "date": 20260929,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_BIg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 53,
+            "name": "MZ",
+            "longname": "Mainz"
+          }
+        ],
+        "su": [
+          {
+            "id": 7,
+            "name": "BI g2",
+            "longname": "Biologie gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 45,
+            "name": "Bio 1",
+            "longname": "Biologie 1"
+          }
+        ]
+      },
+      {
+        "id": 2766535,
+        "date": 20260929,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_BIg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 53,
+            "name": "MZ",
+            "longname": "Mainz"
+          }
+        ],
+        "su": [
+          {
+            "id": 7,
+            "name": "BI g2",
+            "longname": "Biologie gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 45,
+            "name": "Bio 1",
+            "longname": "Biologie 1"
+          }
+        ]
+      },
+      {
+        "id": 2766538,
+        "date": 20260930,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_BIg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 53,
+            "name": "MZ",
+            "longname": "Mainz"
+          }
+        ],
+        "su": [
+          {
+            "id": 7,
+            "name": "BI g2",
+            "longname": "Biologie gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 45,
+            "name": "Bio 1",
+            "longname": "Biologie 1"
+          }
+        ]
+      },
+      {
+        "id": 2767774,
+        "date": 20260930,
+        "startTime": 1415,
+        "endTime": 1500,
+        "sg": "EF_BIg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 123,
+            "name": "KNO",
+            "longname": "Knops"
+          }
+        ],
+        "su": [
+          {
+            "id": 8,
+            "name": "BI g3",
+            "longname": "Biologie gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 45,
+            "name": "Bio 1",
+            "longname": "Biologie 1"
+          }
+        ]
+      },
+      {
+        "id": 2767777,
+        "date": 20261002,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_BIg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 123,
+            "name": "KNO",
+            "longname": "Knops"
+          }
+        ],
+        "su": [
+          {
+            "id": 8,
+            "name": "BI g3",
+            "longname": "Biologie gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 46,
+            "name": "Bio 2",
+            "longname": "Biologie 2"
+          }
+        ]
+      },
+      {
+        "id": 2767780,
+        "date": 20261002,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_BIg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 123,
+            "name": "KNO",
+            "longname": "Knops"
+          }
+        ],
+        "su": [
+          {
+            "id": 8,
+            "name": "BI g3",
+            "longname": "Biologie gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 46,
+            "name": "Bio 2",
+            "longname": "Biologie 2"
+          }
+        ]
+      },
+      {
+        "id": 2768602,
+        "date": 20260929,
+        "startTime": 1415,
+        "endTime": 1500,
+        "sg": "EF_BIg4",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 447,
+            "name": "KLR",
+            "longname": "Klüser"
+          }
+        ],
+        "su": [
+          {
+            "id": 9,
+            "name": "BI g4",
+            "longname": "Biologie gk4"
+          }
+        ],
+        "ro": [
+          {
+            "id": 45,
+            "name": "Bio 1",
+            "longname": "Biologie 1"
+          }
+        ]
+      },
+      {
+        "id": 2768605,
+        "date": 20261001,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_BIg4",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 447,
+            "name": "KLR",
+            "longname": "Klüser"
+          }
+        ],
+        "su": [
+          {
+            "id": 9,
+            "name": "BI g4",
+            "longname": "Biologie gk4"
+          }
+        ],
+        "ro": [
+          {
+            "id": 45,
+            "name": "Bio 1",
+            "longname": "Biologie 1"
+          }
+        ]
+      },
+      {
+        "id": 2768608,
+        "date": 20261001,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_BIg4",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 447,
+            "name": "KLR",
+            "longname": "Klüser"
+          }
+        ],
+        "su": [
+          {
+            "id": 9,
+            "name": "BI g4",
+            "longname": "Biologie gk4"
+          }
+        ],
+        "ro": [
+          {
+            "id": 45,
+            "name": "Bio 1",
+            "longname": "Biologie 1"
+          }
+        ]
+      },
+      {
+        "id": 2775916,
+        "date": 20260929,
+        "startTime": 1415,
+        "endTime": 1500,
+        "sg": "EF_CHg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 479,
+            "name": "PTT",
+            "longname": "Patt"
+          }
+        ],
+        "su": [
+          {
+            "id": 16,
+            "name": "CH g1",
+            "longname": "Chemie gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 49,
+            "name": "Ch 2",
+            "longname": "Chemie 2"
+          }
+        ]
+      },
+      {
+        "id": 2775919,
+        "date": 20261001,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_CHg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 479,
+            "name": "PTT",
+            "longname": "Patt"
+          }
+        ],
+        "su": [
+          {
+            "id": 16,
+            "name": "CH g1",
+            "longname": "Chemie gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 48,
+            "name": "Ch 1",
+            "longname": "Chemie 1"
+          }
+        ]
+      },
+      {
+        "id": 2775922,
+        "date": 20261001,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_CHg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 479,
+            "name": "PTT",
+            "longname": "Patt"
+          }
+        ],
+        "su": [
+          {
+            "id": 16,
+            "name": "CH g1",
+            "longname": "Chemie gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 48,
+            "name": "Ch 1",
+            "longname": "Chemie 1"
+          }
+        ]
+      },
+      {
+        "id": 2777158,
+        "date": 20260929,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_CHg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 56,
+            "name": "MR",
+            "longname": "Maurer"
+          }
+        ],
+        "su": [
+          {
+            "id": 17,
+            "name": "CH g2",
+            "longname": "Chemie gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 48,
+            "name": "Ch 1",
+            "longname": "Chemie 1"
+          }
+        ]
+      },
+      {
+        "id": 2777161,
+        "date": 20260929,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_CHg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 56,
+            "name": "MR",
+            "longname": "Maurer"
+          }
+        ],
+        "su": [
+          {
+            "id": 17,
+            "name": "CH g2",
+            "longname": "Chemie gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 48,
+            "name": "Ch 1",
+            "longname": "Chemie 1"
+          }
+        ]
+      },
+      {
+        "id": 2777164,
+        "date": 20260930,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_CHg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 56,
+            "name": "MR",
+            "longname": "Maurer"
+          }
+        ],
+        "su": [
+          {
+            "id": 17,
+            "name": "CH g2",
+            "longname": "Chemie gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 48,
+            "name": "Ch 1",
+            "longname": "Chemie 1"
+          }
+        ]
+      },
+      {
+        "id": 2793994,
+        "date": 20260928,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_Dg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 469,
+            "name": "KRD",
+            "longname": "Kierdorf"
+          }
+        ],
+        "su": [
+          {
+            "id": 25,
+            "name": "D  g1",
+            "longname": "Deutsch gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 32,
+            "name": "K.3.02",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2793997,
+        "date": 20260928,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_Dg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 469,
+            "name": "KRD",
+            "longname": "Kierdorf"
+          }
+        ],
+        "su": [
+          {
+            "id": 25,
+            "name": "D  g1",
+            "longname": "Deutsch gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 32,
+            "name": "K.3.02",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2794000,
+        "date": 20261001,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_Dg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 469,
+            "name": "KRD",
+            "longname": "Kierdorf"
+          }
+        ],
+        "su": [
+          {
+            "id": 25,
+            "name": "D  g1",
+            "longname": "Deutsch gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 32,
+            "name": "K.3.02",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2794822,
+        "date": 20260928,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_Dg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 60,
+            "name": "MLR",
+            "longname": "Müller"
+          }
+        ],
+        "su": [
+          {
+            "id": 26,
+            "name": "D  g2",
+            "longname": "Deutsch gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 34,
+            "name": "K.3.04",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2794825,
+        "date": 20260930,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_Dg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 60,
+            "name": "MLR",
+            "longname": "Müller"
+          }
+        ],
+        "su": [
+          {
+            "id": 26,
+            "name": "D  g2",
+            "longname": "Deutsch gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 34,
+            "name": "K.3.04",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2794828,
+        "date": 20260930,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_Dg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 60,
+            "name": "MLR",
+            "longname": "Müller"
+          }
+        ],
+        "su": [
+          {
+            "id": 26,
+            "name": "D  g2",
+            "longname": "Deutsch gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 34,
+            "name": "K.3.04",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2796478,
+        "date": 20260928,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_Dg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 153,
+            "name": "BAU",
+            "longname": "Baucke"
+          }
+        ],
+        "su": [
+          {
+            "id": 27,
+            "name": "D  g3",
+            "longname": "Deutsch gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 32,
+            "name": "K.3.02",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2796481,
+        "date": 20261001,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_Dg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 153,
+            "name": "BAU",
+            "longname": "Baucke"
+          }
+        ],
+        "su": [
+          {
+            "id": 27,
+            "name": "D  g3",
+            "longname": "Deutsch gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 32,
+            "name": "K.3.02",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2796484,
+        "date": 20261001,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_Dg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 153,
+            "name": "BAU",
+            "longname": "Baucke"
+          }
+        ],
+        "su": [
+          {
+            "id": 27,
+            "name": "D  g3",
+            "longname": "Deutsch gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 32,
+            "name": "K.3.02",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2797306,
+        "date": 20260928,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_Dg4",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 469,
+            "name": "KRD",
+            "longname": "Kierdorf"
+          }
+        ],
+        "su": [
+          {
+            "id": 28,
+            "name": "D  g4",
+            "longname": "Deutsch gk4"
+          }
+        ],
+        "ro": [
+          {
+            "id": 32,
+            "name": "K.3.02",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2797309,
+        "date": 20260930,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_Dg4",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 469,
+            "name": "KRD",
+            "longname": "Kierdorf"
+          }
+        ],
+        "su": [
+          {
+            "id": 28,
+            "name": "D  g4",
+            "longname": "Deutsch gk4"
+          }
+        ],
+        "ro": [
+          {
+            "id": 32,
+            "name": "K.3.02",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2797312,
+        "date": 20260930,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_Dg4",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 469,
+            "name": "KRD",
+            "longname": "Kierdorf"
+          }
+        ],
+        "su": [
+          {
+            "id": 28,
+            "name": "D  g4",
+            "longname": "Deutsch gk4"
+          }
+        ],
+        "ro": [
+          {
+            "id": 32,
+            "name": "K.3.02",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2797720,
+        "date": 20260928,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_Dg5",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 84,
+            "name": "SÜ",
+            "longname": "Schüpp"
+          }
+        ],
+        "su": [
+          {
+            "id": 29,
+            "name": "D  g5",
+            "longname": "Deutsch gk5"
+          }
+        ],
+        "ro": [
+          {
+            "id": 32,
+            "name": "K.3.02",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2797723,
+        "date": 20260928,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_Dg5",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 84,
+            "name": "SÜ",
+            "longname": "Schüpp"
+          }
+        ],
+        "su": [
+          {
+            "id": 29,
+            "name": "D  g5",
+            "longname": "Deutsch gk5"
+          }
+        ],
+        "ro": [
+          {
+            "id": 32,
+            "name": "K.3.02",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2797726,
+        "date": 20260930,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_Dg5",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 84,
+            "name": "SÜ",
+            "longname": "Schüpp"
+          }
+        ],
+        "su": [
+          {
+            "id": 29,
+            "name": "D  g5",
+            "longname": "Deutsch gk5"
+          }
+        ],
+        "ro": [
+          {
+            "id": 32,
+            "name": "K.3.02",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2816626,
+        "date": 20260928,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_Eg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 103,
+            "name": "WZ",
+            "longname": "Welzel"
+          }
+        ],
+        "su": [
+          {
+            "id": 38,
+            "name": "E  g1",
+            "longname": "Englisch gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 41,
+            "name": "K.3.14",
+            "longname": "Englisch"
+          }
+        ]
+      },
+      {
+        "id": 2816629,
+        "date": 20260928,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_Eg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 103,
+            "name": "WZ",
+            "longname": "Welzel"
+          }
+        ],
+        "su": [
+          {
+            "id": 38,
+            "name": "E  g1",
+            "longname": "Englisch gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 41,
+            "name": "K.3.14",
+            "longname": "Englisch"
+          }
+        ]
+      },
+      {
+        "id": 2816632,
+        "date": 20261001,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_Eg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 103,
+            "name": "WZ",
+            "longname": "Welzel"
+          }
+        ],
+        "su": [
+          {
+            "id": 38,
+            "name": "E  g1",
+            "longname": "Englisch gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 41,
+            "name": "K.3.14",
+            "longname": "Englisch"
+          }
+        ]
+      },
+      {
+        "id": 2817868,
+        "date": 20260928,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_Eg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 104,
+            "name": "WE",
+            "longname": "Werner"
+          }
+        ],
+        "su": [
+          {
+            "id": 39,
+            "name": "E  g2",
+            "longname": "Englisch gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 13,
+            "name": "K.1.03",
+            "longname": "07a Werner / Mues-Kuttenkeuler"
+          }
+        ]
+      },
+      {
+        "id": 2817871,
+        "date": 20260930,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_Eg2",
+        "substText": "Eigenarbeit",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 0,
+            "name": "---",
+            "longname": "---"
+          }
+        ],
+        "su": [
+          {
+            "id": 39,
+            "name": "E  g2",
+            "longname": "Englisch gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 150,
+            "name": "eigenständig",
+            "longname": "eigenständig"
+          }
+        ]
+      },
+      {
+        "id": 2817874,
+        "date": 20260930,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_Eg2",
+        "substText": "Eigenarbeit",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 0,
+            "name": "---",
+            "longname": "---"
+          }
+        ],
+        "su": [
+          {
+            "id": 39,
+            "name": "E  g2",
+            "longname": "Englisch gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 150,
+            "name": "eigenständig",
+            "longname": "eigenständig"
+          }
+        ]
+      },
+      {
+        "id": 2818282,
+        "date": 20260928,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_Eg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 435,
+            "name": "EGB",
+            "longname": "Engelberth"
+          }
+        ],
+        "su": [
+          {
+            "id": 40,
+            "name": "E  g3",
+            "longname": "Englisch gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 24,
+            "name": "K.2.01",
+            "longname": "K.2.01"
+          }
+        ]
+      },
+      {
+        "id": 2818285,
+        "date": 20261001,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_Eg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 435,
+            "name": "EGB",
+            "longname": "Engelberth"
+          }
+        ],
+        "su": [
+          {
+            "id": 40,
+            "name": "E  g3",
+            "longname": "Englisch gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 24,
+            "name": "K.2.01",
+            "longname": "K.2.01"
+          }
+        ]
+      },
+      {
+        "id": 2818288,
+        "date": 20261001,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_Eg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 435,
+            "name": "EGB",
+            "longname": "Engelberth"
+          }
+        ],
+        "su": [
+          {
+            "id": 40,
+            "name": "E  g3",
+            "longname": "Englisch gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 24,
+            "name": "K.2.01",
+            "longname": "K.2.01"
+          }
+        ]
+      },
+      {
+        "id": 2818696,
+        "date": 20260928,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_Eg4",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 281,
+            "name": "PAP",
+            "longname": "Papadopoulos"
+          }
+        ],
+        "su": [
+          {
+            "id": 41,
+            "name": "E  g4",
+            "longname": "Englisch gk4"
+          }
+        ],
+        "ro": [
+          {
+            "id": 42,
+            "name": "K.3.16",
+            "longname": "Englisch"
+          }
+        ]
+      },
+      {
+        "id": 2818699,
+        "date": 20260930,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_Eg4",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 281,
+            "name": "PAP",
+            "longname": "Papadopoulos"
+          }
+        ],
+        "su": [
+          {
+            "id": 41,
+            "name": "E  g4",
+            "longname": "Englisch gk4"
+          }
+        ],
+        "ro": [
+          {
+            "id": 42,
+            "name": "K.3.16",
+            "longname": "Englisch"
+          }
+        ]
+      },
+      {
+        "id": 2818702,
+        "date": 20260930,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_Eg4",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 281,
+            "name": "PAP",
+            "longname": "Papadopoulos"
+          }
+        ],
+        "su": [
+          {
+            "id": 41,
+            "name": "E  g4",
+            "longname": "Englisch gk4"
+          }
+        ],
+        "ro": [
+          {
+            "id": 42,
+            "name": "K.3.16",
+            "longname": "Englisch"
+          }
+        ]
+      },
+      {
+        "id": 2819110,
+        "date": 20260928,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_Eg5",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 450,
+            "name": "EKD",
+            "longname": "Eckhardt"
+          }
+        ],
+        "su": [
+          {
+            "id": 42,
+            "name": "E  g5",
+            "longname": "Englisch gk5"
+          }
+        ],
+        "ro": [
+          {
+            "id": 42,
+            "name": "K.3.16",
+            "longname": "Englisch"
+          }
+        ]
+      },
+      {
+        "id": 2819113,
+        "date": 20260928,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_Eg5",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 450,
+            "name": "EKD",
+            "longname": "Eckhardt"
+          }
+        ],
+        "su": [
+          {
+            "id": 42,
+            "name": "E  g5",
+            "longname": "Englisch gk5"
+          }
+        ],
+        "ro": [
+          {
+            "id": 42,
+            "name": "K.3.16",
+            "longname": "Englisch"
+          }
+        ]
+      },
+      {
+        "id": 2819116,
+        "date": 20260930,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_Eg5",
+        "substText": "Eigenarbeit",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 0,
+            "name": "---",
+            "longname": "---"
+          }
+        ],
+        "su": [
+          {
+            "id": 42,
+            "name": "E  g5",
+            "longname": "Englisch gk5"
+          }
+        ],
+        "ro": [
+          {
+            "id": 150,
+            "name": "eigenständig",
+            "longname": "eigenständig"
+          }
+        ]
+      },
+      {
+        "id": 2827942,
+        "date": 20260930,
+        "startTime": 1415,
+        "endTime": 1500,
+        "sg": "EF_EKbg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 266,
+            "name": "PFE",
+            "longname": "Pfennig"
+          }
+        ],
+        "su": [
+          {
+            "id": 50,
+            "name": "EKbg1",
+            "longname": "Erdkunde (bili) gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 23,
+            "name": "K.1.18",
+            "longname": "K.1.18"
+          }
+        ]
+      },
+      {
+        "id": 2827945,
+        "date": 20261002,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_EKbg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 266,
+            "name": "PFE",
+            "longname": "Pfennig"
+          }
+        ],
+        "su": [
+          {
+            "id": 50,
+            "name": "EKbg1",
+            "longname": "Erdkunde (bili) gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 23,
+            "name": "K.1.18",
+            "longname": "K.1.18"
+          }
+        ]
+      },
+      {
+        "id": 2827948,
+        "date": 20261002,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_EKbg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 266,
+            "name": "PFE",
+            "longname": "Pfennig"
+          }
+        ],
+        "su": [
+          {
+            "id": 50,
+            "name": "EKbg1",
+            "longname": "Erdkunde (bili) gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 23,
+            "name": "K.1.18",
+            "longname": "K.1.18"
+          }
+        ]
+      },
+      {
+        "id": 2830840,
+        "date": 20260928,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_EKg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 1,
+            "name": "AM",
+            "longname": "Amberg"
+          }
+        ],
+        "su": [
+          {
+            "id": 53,
+            "name": "EK g1",
+            "longname": "Erdkunde gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 27,
+            "name": "K.2.05",
+            "longname": "Erdkunde 1"
+          }
+        ]
+      },
+      {
+        "id": 2830843,
+        "date": 20260930,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_EKg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 1,
+            "name": "AM",
+            "longname": "Amberg"
+          }
+        ],
+        "su": [
+          {
+            "id": 53,
+            "name": "EK g1",
+            "longname": "Erdkunde gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 27,
+            "name": "K.2.05",
+            "longname": "Erdkunde 1"
+          }
+        ]
+      },
+      {
+        "id": 2830846,
+        "date": 20260930,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_EKg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 1,
+            "name": "AM",
+            "longname": "Amberg"
+          }
+        ],
+        "su": [
+          {
+            "id": 53,
+            "name": "EK g1",
+            "longname": "Erdkunde gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 27,
+            "name": "K.2.05",
+            "longname": "Erdkunde 1"
+          }
+        ]
+      },
+      {
+        "id": 2831668,
+        "date": 20260929,
+        "startTime": 1415,
+        "endTime": 1500,
+        "sg": "EF_EKg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 12,
+            "name": "ENK",
+            "longname": "Enkrich"
+          }
+        ],
+        "su": [
+          {
+            "id": 54,
+            "name": "EK g2",
+            "longname": "Erdkunde gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 29,
+            "name": "K.2.08",
+            "longname": "K.2.08"
+          }
+        ]
+      },
+      {
+        "id": 2831671,
+        "date": 20261001,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_EKg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 12,
+            "name": "ENK",
+            "longname": "Enkrich"
+          }
+        ],
+        "su": [
+          {
+            "id": 54,
+            "name": "EK g2",
+            "longname": "Erdkunde gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 29,
+            "name": "K.2.08",
+            "longname": "K.2.08"
+          }
+        ]
+      },
+      {
+        "id": 2831674,
+        "date": 20261001,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_EKg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 12,
+            "name": "ENK",
+            "longname": "Enkrich"
+          }
+        ],
+        "su": [
+          {
+            "id": 54,
+            "name": "EK g2",
+            "longname": "Erdkunde gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 29,
+            "name": "K.2.08",
+            "longname": "K.2.08"
+          }
+        ]
+      },
+      {
+        "id": 2834980,
+        "date": 20260929,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_ERg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 482,
+            "name": "WCK",
+            "longname": "Wick"
+          }
+        ],
+        "su": [
+          {
+            "id": 58,
+            "name": "ER g1",
+            "longname": "ev. Religion gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 41,
+            "name": "K.3.14",
+            "longname": "Englisch"
+          }
+        ]
+      },
+      {
+        "id": 2834983,
+        "date": 20261001,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_ERg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 482,
+            "name": "WCK",
+            "longname": "Wick"
+          }
+        ],
+        "su": [
+          {
+            "id": 58,
+            "name": "ER g1",
+            "longname": "ev. Religion gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 41,
+            "name": "K.3.14",
+            "longname": "Englisch"
+          }
+        ]
+      },
+      {
+        "id": 2834986,
+        "date": 20261001,
+        "startTime": 1415,
+        "endTime": 1500,
+        "sg": "EF_ERg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 482,
+            "name": "WCK",
+            "longname": "Wick"
+          }
+        ],
+        "su": [
+          {
+            "id": 58,
+            "name": "ER g1",
+            "longname": "ev. Religion gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 41,
+            "name": "K.3.14",
+            "longname": "Englisch"
+          }
+        ]
+      },
+      {
+        "id": 2846984,
+        "date": 20260930,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_Fg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 476,
+            "name": "KRB",
+            "longname": "Kehrenbach"
+          }
+        ],
+        "su": [
+          {
+            "id": 66,
+            "name": "F  g1",
+            "longname": "Französisch gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 36,
+            "name": "K.3.06",
+            "longname": "Französisch"
+          }
+        ]
+      },
+      {
+        "id": 2846987,
+        "date": 20261002,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_Fg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 476,
+            "name": "KRB",
+            "longname": "Kehrenbach"
+          }
+        ],
+        "su": [
+          {
+            "id": 66,
+            "name": "F  g1",
+            "longname": "Französisch gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 36,
+            "name": "K.3.06",
+            "longname": "Französisch"
+          }
+        ]
+      },
+      {
+        "id": 2846990,
+        "date": 20261002,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_Fg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 476,
+            "name": "KRB",
+            "longname": "Kehrenbach"
+          }
+        ],
+        "su": [
+          {
+            "id": 66,
+            "name": "F  g1",
+            "longname": "Französisch gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 36,
+            "name": "K.3.06",
+            "longname": "Französisch"
+          }
+        ]
+      },
+      {
+        "id": 2853192,
+        "date": 20260930,
+        "startTime": 1415,
+        "endTime": 1500,
+        "sg": "EF_GEbg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 16,
+            "name": "FD",
+            "longname": "Fretzdorff"
+          }
+        ],
+        "su": [
+          {
+            "id": 77,
+            "name": "GEbg1",
+            "longname": "Geschichte bilingual"
+          }
+        ],
+        "ro": [
+          {
+            "id": 33,
+            "name": "K.3.03",
+            "longname": "Geschichte"
+          }
+        ]
+      },
+      {
+        "id": 2853195,
+        "date": 20261002,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_GEbg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 16,
+            "name": "FD",
+            "longname": "Fretzdorff"
+          }
+        ],
+        "su": [
+          {
+            "id": 77,
+            "name": "GEbg1",
+            "longname": "Geschichte bilingual"
+          }
+        ],
+        "ro": [
+          {
+            "id": 33,
+            "name": "K.3.03",
+            "longname": "Geschichte"
+          }
+        ]
+      },
+      {
+        "id": 2853198,
+        "date": 20261002,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_GEbg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 16,
+            "name": "FD",
+            "longname": "Fretzdorff"
+          }
+        ],
+        "su": [
+          {
+            "id": 77,
+            "name": "GEbg1",
+            "longname": "Geschichte bilingual"
+          }
+        ],
+        "ro": [
+          {
+            "id": 33,
+            "name": "K.3.03",
+            "longname": "Geschichte"
+          }
+        ]
+      },
+      {
+        "id": 2853606,
+        "date": 20260929,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_GEbg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 495,
+            "name": "TRN",
+            "longname": "Tornow"
+          }
+        ],
+        "su": [
+          {
+            "id": 78,
+            "name": "GEbg2",
+            "longname": "Geschichte bilingual"
+          }
+        ],
+        "ro": [
+          {
+            "id": 35,
+            "name": "K.3.05",
+            "longname": "ev. Religion"
+          }
+        ]
+      },
+      {
+        "id": 2853609,
+        "date": 20260929,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_GEbg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 495,
+            "name": "TRN",
+            "longname": "Tornow"
+          }
+        ],
+        "su": [
+          {
+            "id": 78,
+            "name": "GEbg2",
+            "longname": "Geschichte bilingual"
+          }
+        ],
+        "ro": [
+          {
+            "id": 35,
+            "name": "K.3.05",
+            "longname": "ev. Religion"
+          }
+        ]
+      },
+      {
+        "id": 2853612,
+        "date": 20260930,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_GEbg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 495,
+            "name": "TRN",
+            "longname": "Tornow"
+          }
+        ],
+        "su": [
+          {
+            "id": 78,
+            "name": "GEbg2",
+            "longname": "Geschichte bilingual"
+          }
+        ],
+        "ro": [
+          {
+            "id": 35,
+            "name": "K.3.05",
+            "longname": "ev. Religion"
+          }
+        ]
+      },
+      {
+        "id": 2856227,
+        "date": 20260929,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_GEg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 97,
+            "name": "TH",
+            "longname": "Thieme"
+          }
+        ],
+        "su": [
+          {
+            "id": 80,
+            "name": "GE g1",
+            "longname": "Geschichte gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 33,
+            "name": "K.3.03",
+            "longname": "Geschichte"
+          }
+        ]
+      },
+      {
+        "id": 2856230,
+        "date": 20260929,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_GEg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 97,
+            "name": "TH",
+            "longname": "Thieme"
+          }
+        ],
+        "su": [
+          {
+            "id": 80,
+            "name": "GE g1",
+            "longname": "Geschichte gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 33,
+            "name": "K.3.03",
+            "longname": "Geschichte"
+          }
+        ]
+      },
+      {
+        "id": 2856233,
+        "date": 20260930,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_GEg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 97,
+            "name": "TH",
+            "longname": "Thieme"
+          }
+        ],
+        "su": [
+          {
+            "id": 80,
+            "name": "GE g1",
+            "longname": "Geschichte gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 33,
+            "name": "K.3.03",
+            "longname": "Geschichte"
+          }
+        ]
+      },
+      {
+        "id": 2857469,
+        "date": 20260930,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_GEg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 49,
+            "name": "LO",
+            "longname": "Lorenz"
+          }
+        ],
+        "su": [
+          {
+            "id": 81,
+            "name": "GE g2",
+            "longname": "Geschichte gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 41,
+            "name": "K.3.14",
+            "longname": "Englisch"
+          }
+        ]
+      },
+      {
+        "id": 2857472,
+        "date": 20261002,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_GEg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 49,
+            "name": "LO",
+            "longname": "Lorenz"
+          }
+        ],
+        "su": [
+          {
+            "id": 81,
+            "name": "GE g2",
+            "longname": "Geschichte gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 32,
+            "name": "K.3.02",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2857475,
+        "date": 20261002,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_GEg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 49,
+            "name": "LO",
+            "longname": "Lorenz"
+          }
+        ],
+        "su": [
+          {
+            "id": 81,
+            "name": "GE g2",
+            "longname": "Geschichte gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 32,
+            "name": "K.3.02",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2861470,
+        "date": 20260929,
+        "startTime": 1415,
+        "endTime": 1500,
+        "sg": "EF_IFg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 176,
+            "name": "WEI",
+            "longname": "Weiden"
+          }
+        ],
+        "su": [
+          {
+            "id": 87,
+            "name": "IF g1",
+            "longname": "Informatik gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 52,
+            "name": "Com 2",
+            "longname": "Computer 2"
+          }
+        ]
+      },
+      {
+        "id": 2861473,
+        "date": 20261001,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_IFg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 176,
+            "name": "WEI",
+            "longname": "Weiden"
+          }
+        ],
+        "su": [
+          {
+            "id": 87,
+            "name": "IF g1",
+            "longname": "Informatik gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 52,
+            "name": "Com 2",
+            "longname": "Computer 2"
+          }
+        ]
+      },
+      {
+        "id": 2861476,
+        "date": 20261001,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_IFg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 176,
+            "name": "WEI",
+            "longname": "Weiden"
+          }
+        ],
+        "su": [
+          {
+            "id": 87,
+            "name": "IF g1",
+            "longname": "Informatik gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 52,
+            "name": "Com 2",
+            "longname": "Computer 2"
+          }
+        ]
+      },
+      {
+        "id": 2862712,
+        "date": 20260929,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_KRg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 20,
+            "name": "GW",
+            "longname": "Glose-Wüstemeyer"
+          }
+        ],
+        "su": [
+          {
+            "id": 95,
+            "name": "KR g1",
+            "longname": "kath. Religion gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 7,
+            "name": "K.0.12",
+            "longname": "08a Glose-Wüs. / Weber, G."
+          }
+        ]
+      },
+      {
+        "id": 2862715,
+        "date": 20261001,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_KRg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 20,
+            "name": "GW",
+            "longname": "Glose-Wüstemeyer"
+          }
+        ],
+        "su": [
+          {
+            "id": 95,
+            "name": "KR g1",
+            "longname": "kath. Religion gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 7,
+            "name": "K.0.12",
+            "longname": "08a Glose-Wüs. / Weber, G."
+          }
+        ]
+      },
+      {
+        "id": 2862718,
+        "date": 20261001,
+        "startTime": 1415,
+        "endTime": 1500,
+        "sg": "EF_KRg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 20,
+            "name": "GW",
+            "longname": "Glose-Wüstemeyer"
+          }
+        ],
+        "su": [
+          {
+            "id": 95,
+            "name": "KR g1",
+            "longname": "kath. Religion gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 7,
+            "name": "K.0.12",
+            "longname": "08a Glose-Wüs. / Weber, G."
+          }
+        ]
+      },
+      {
+        "id": 2863540,
+        "date": 20260928,
+        "startTime": 1415,
+        "endTime": 1500,
+        "sg": "EF_KRg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 505,
+            "name": "SBR",
+            "longname": "Sieber"
+          }
+        ],
+        "su": [
+          {
+            "id": 96,
+            "name": "KR g2",
+            "longname": "kath. Religion gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 4,
+            "name": "K.0.06",
+            "longname": "05a Pfennig / Schmitz-Porten"
+          }
+        ]
+      },
+      {
+        "id": 2863543,
+        "date": 20260928,
+        "startTime": 1500,
+        "endTime": 1545,
+        "sg": "EF_KRg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 505,
+            "name": "SBR",
+            "longname": "Sieber"
+          }
+        ],
+        "su": [
+          {
+            "id": 96,
+            "name": "KR g2",
+            "longname": "kath. Religion gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 4,
+            "name": "K.0.06",
+            "longname": "05a Pfennig / Schmitz-Porten"
+          }
+        ]
+      },
+      {
+        "id": 2863546,
+        "date": 20261001,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_KRg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 505,
+            "name": "SBR",
+            "longname": "Sieber"
+          }
+        ],
+        "su": [
+          {
+            "id": 96,
+            "name": "KR g2",
+            "longname": "kath. Religion gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 4,
+            "name": "K.0.06",
+            "longname": "05a Pfennig / Schmitz-Porten"
+          }
+        ]
+      },
+      {
+        "id": 2873476,
+        "date": 20260929,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_KUg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 346,
+            "name": "SLV",
+            "longname": "Silva"
+          }
+        ],
+        "su": [
+          {
+            "id": 104,
+            "name": "KU g1",
+            "longname": "Kunst gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 137,
+            "name": "Ku 2",
+            "longname": "Kunst 2"
+          }
+        ]
+      },
+      {
+        "id": 2873479,
+        "date": 20261001,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_KUg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 346,
+            "name": "SLV",
+            "longname": "Silva"
+          }
+        ],
+        "su": [
+          {
+            "id": 104,
+            "name": "KU g1",
+            "longname": "Kunst gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 137,
+            "name": "Ku 2",
+            "longname": "Kunst 2"
+          }
+        ]
+      },
+      {
+        "id": 2873482,
+        "date": 20261001,
+        "startTime": 1415,
+        "endTime": 1500,
+        "sg": "EF_KUg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 346,
+            "name": "SLV",
+            "longname": "Silva"
+          }
+        ],
+        "su": [
+          {
+            "id": 104,
+            "name": "KU g1",
+            "longname": "Kunst gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 137,
+            "name": "Ku 2",
+            "longname": "Kunst 2"
+          }
+        ]
+      },
+      {
+        "id": 2874304,
+        "date": 20260929,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_KUg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 87,
+            "name": "SO",
+            "longname": "Sebe-Opfermann"
+          }
+        ],
+        "su": [
+          {
+            "id": 105,
+            "name": "KU g2",
+            "longname": "Kunst gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 54,
+            "name": "Ku 1",
+            "longname": "Kunst 1"
+          }
+        ]
+      },
+      {
+        "id": 2874307,
+        "date": 20260929,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_KUg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 87,
+            "name": "SO",
+            "longname": "Sebe-Opfermann"
+          }
+        ],
+        "su": [
+          {
+            "id": 105,
+            "name": "KU g2",
+            "longname": "Kunst gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 54,
+            "name": "Ku 1",
+            "longname": "Kunst 1"
+          }
+        ]
+      },
+      {
+        "id": 2874310,
+        "date": 20261002,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_KUg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 87,
+            "name": "SO",
+            "longname": "Sebe-Opfermann"
+          }
+        ],
+        "su": [
+          {
+            "id": 105,
+            "name": "KU g2",
+            "longname": "Kunst gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 54,
+            "name": "Ku 1",
+            "longname": "Kunst 1"
+          }
+        ]
+      },
+      {
+        "id": 2874718,
+        "date": 20260929,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_KUg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 87,
+            "name": "SO",
+            "longname": "Sebe-Opfermann"
+          }
+        ],
+        "su": [
+          {
+            "id": 106,
+            "name": "KU g3",
+            "longname": "Kunst gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 54,
+            "name": "Ku 1",
+            "longname": "Kunst 1"
+          }
+        ]
+      },
+      {
+        "id": 2874721,
+        "date": 20261002,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_KUg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 87,
+            "name": "SO",
+            "longname": "Sebe-Opfermann"
+          }
+        ],
+        "su": [
+          {
+            "id": 106,
+            "name": "KU g3",
+            "longname": "Kunst gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 54,
+            "name": "Ku 1",
+            "longname": "Kunst 1"
+          }
+        ]
+      },
+      {
+        "id": 2874724,
+        "date": 20261002,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_KUg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 87,
+            "name": "SO",
+            "longname": "Sebe-Opfermann"
+          }
+        ],
+        "su": [
+          {
+            "id": 106,
+            "name": "KU g3",
+            "longname": "Kunst gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 54,
+            "name": "Ku 1",
+            "longname": "Kunst 1"
+          }
+        ]
+      },
+      {
+        "id": 2875120,
+        "date": 20260929,
+        "startTime": 1500,
+        "endTime": 1545,
+        "sg": "EF_KUg4",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 87,
+            "name": "SO",
+            "longname": "Sebe-Opfermann"
+          }
+        ],
+        "su": [
+          {
+            "id": 107,
+            "name": "KU g4",
+            "longname": "Kunst gk4"
+          }
+        ],
+        "ro": [
+          {
+            "id": 54,
+            "name": "Ku 1",
+            "longname": "Kunst 1"
+          }
+        ]
+      },
+      {
+        "id": 2875123,
+        "date": 20261001,
+        "startTime": 1500,
+        "endTime": 1545,
+        "sg": "EF_KUg4",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 87,
+            "name": "SO",
+            "longname": "Sebe-Opfermann"
+          }
+        ],
+        "su": [
+          {
+            "id": 107,
+            "name": "KU g4",
+            "longname": "Kunst gk4"
+          }
+        ],
+        "ro": [
+          {
+            "id": 54,
+            "name": "Ku 1",
+            "longname": "Kunst 1"
+          }
+        ]
+      },
+      {
+        "id": 2879824,
+        "date": 20260928,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_Lg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 45,
+            "name": "KRT",
+            "longname": "Kurtenbach"
+          }
+        ],
+        "su": [
+          {
+            "id": 110,
+            "name": "L  g1",
+            "longname": "Latein gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 38,
+            "name": "K.3.08",
+            "longname": "Philosophie"
+          }
+        ]
+      },
+      {
+        "id": 2879827,
+        "date": 20260928,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_Lg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 45,
+            "name": "KRT",
+            "longname": "Kurtenbach"
+          }
+        ],
+        "su": [
+          {
+            "id": 110,
+            "name": "L  g1",
+            "longname": "Latein gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 38,
+            "name": "K.3.08",
+            "longname": "Philosophie"
+          }
+        ]
+      },
+      {
+        "id": 2879830,
+        "date": 20261001,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_Lg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 45,
+            "name": "KRT",
+            "longname": "Kurtenbach"
+          }
+        ],
+        "su": [
+          {
+            "id": 110,
+            "name": "L  g1",
+            "longname": "Latein gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 38,
+            "name": "K.3.08",
+            "longname": "Philosophie"
+          }
+        ]
+      },
+      {
+        "id": 2880238,
+        "date": 20260930,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_Lg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 70,
+            "name": "RÖD",
+            "longname": "Rödder"
+          }
+        ],
+        "su": [
+          {
+            "id": 111,
+            "name": "L  g2",
+            "longname": "Latein gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 37,
+            "name": "K.3.07",
+            "longname": "kath. Religion / Latein"
+          }
+        ]
+      },
+      {
+        "id": 2880241,
+        "date": 20261002,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_Lg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 70,
+            "name": "RÖD",
+            "longname": "Rödder"
+          }
+        ],
+        "su": [
+          {
+            "id": 111,
+            "name": "L  g2",
+            "longname": "Latein gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 37,
+            "name": "K.3.07",
+            "longname": "kath. Religion / Latein"
+          }
+        ]
+      },
+      {
+        "id": 2880244,
+        "date": 20261002,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_Lg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 70,
+            "name": "RÖD",
+            "longname": "Rödder"
+          }
+        ],
+        "su": [
+          {
+            "id": 111,
+            "name": "L  g2",
+            "longname": "Latein gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 37,
+            "name": "K.3.07",
+            "longname": "kath. Religion / Latein"
+          }
+        ]
+      },
+      {
+        "id": 2897500,
+        "date": 20260928,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_Mg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 176,
+            "name": "WEI",
+            "longname": "Weiden"
+          }
+        ],
+        "su": [
+          {
+            "id": 126,
+            "name": "M  g1",
+            "longname": "Mathematik gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 44,
+            "name": "K.3.20",
+            "longname": "Mathematik"
+          }
+        ]
+      },
+      {
+        "id": 2897503,
+        "date": 20260928,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_Mg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 176,
+            "name": "WEI",
+            "longname": "Weiden"
+          }
+        ],
+        "su": [
+          {
+            "id": 126,
+            "name": "M  g1",
+            "longname": "Mathematik gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 44,
+            "name": "K.3.20",
+            "longname": "Mathematik"
+          }
+        ]
+      },
+      {
+        "id": 2897506,
+        "date": 20260929,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_Mg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 176,
+            "name": "WEI",
+            "longname": "Weiden"
+          }
+        ],
+        "su": [
+          {
+            "id": 126,
+            "name": "M  g1",
+            "longname": "Mathematik gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 44,
+            "name": "K.3.20",
+            "longname": "Mathematik"
+          }
+        ]
+      },
+      {
+        "id": 2897509,
+        "date": 20261001,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_Mg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 176,
+            "name": "WEI",
+            "longname": "Weiden"
+          }
+        ],
+        "su": [
+          {
+            "id": 126,
+            "name": "M  g1",
+            "longname": "Mathematik gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 44,
+            "name": "K.3.20",
+            "longname": "Mathematik"
+          }
+        ]
+      },
+      {
+        "id": 2898880,
+        "date": 20260928,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_Mg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 496,
+            "name": "ABG",
+            "longname": "Amberg"
+          }
+        ],
+        "su": [
+          {
+            "id": 127,
+            "name": "M  g2",
+            "longname": "Mathematik gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 43,
+            "name": "K.3.18",
+            "longname": "Mathematik"
+          }
+        ]
+      },
+      {
+        "id": 2898883,
+        "date": 20260929,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_Mg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 496,
+            "name": "ABG",
+            "longname": "Amberg"
+          }
+        ],
+        "su": [
+          {
+            "id": 127,
+            "name": "M  g2",
+            "longname": "Mathematik gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 43,
+            "name": "K.3.18",
+            "longname": "Mathematik"
+          }
+        ]
+      },
+      {
+        "id": 2898886,
+        "date": 20260930,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_Mg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 496,
+            "name": "ABG",
+            "longname": "Amberg"
+          }
+        ],
+        "su": [
+          {
+            "id": 127,
+            "name": "M  g2",
+            "longname": "Mathematik gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 43,
+            "name": "K.3.18",
+            "longname": "Mathematik"
+          }
+        ]
+      },
+      {
+        "id": 2898889,
+        "date": 20260930,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_Mg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 496,
+            "name": "ABG",
+            "longname": "Amberg"
+          }
+        ],
+        "su": [
+          {
+            "id": 127,
+            "name": "M  g2",
+            "longname": "Mathematik gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 43,
+            "name": "K.3.18",
+            "longname": "Mathematik"
+          }
+        ]
+      },
+      {
+        "id": 2900260,
+        "date": 20260928,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_Mg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 19,
+            "name": "GL",
+            "longname": "Gleißner"
+          }
+        ],
+        "su": [
+          {
+            "id": 128,
+            "name": "M  g3",
+            "longname": "Mathematik gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 43,
+            "name": "K.3.18",
+            "longname": "Mathematik"
+          }
+        ]
+      },
+      {
+        "id": 2900263,
+        "date": 20260929,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_Mg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 19,
+            "name": "GL",
+            "longname": "Gleißner"
+          }
+        ],
+        "su": [
+          {
+            "id": 128,
+            "name": "M  g3",
+            "longname": "Mathematik gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 8,
+            "name": "K.0.14",
+            "longname": "08b Lorenz / Mohr"
+          }
+        ]
+      },
+      {
+        "id": 2900266,
+        "date": 20261001,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_Mg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 19,
+            "name": "GL",
+            "longname": "Gleißner"
+          }
+        ],
+        "su": [
+          {
+            "id": 128,
+            "name": "M  g3",
+            "longname": "Mathematik gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 43,
+            "name": "K.3.18",
+            "longname": "Mathematik"
+          }
+        ]
+      },
+      {
+        "id": 2900269,
+        "date": 20261001,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_Mg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 19,
+            "name": "GL",
+            "longname": "Gleißner"
+          }
+        ],
+        "su": [
+          {
+            "id": 128,
+            "name": "M  g3",
+            "longname": "Mathematik gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 43,
+            "name": "K.3.18",
+            "longname": "Mathematik"
+          }
+        ]
+      },
+      {
+        "id": 2901226,
+        "date": 20260928,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_Mg4",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 453,
+            "name": "NTR",
+            "longname": "Nathrath"
+          }
+        ],
+        "su": [
+          {
+            "id": 129,
+            "name": "M  g4",
+            "longname": "Mathematik gk4"
+          }
+        ],
+        "ro": [
+          {
+            "id": 10,
+            "name": "K.0.18",
+            "longname": "06a Nathrath / Silva"
+          }
+        ]
+      },
+      {
+        "id": 2901229,
+        "date": 20260929,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_Mg4",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 453,
+            "name": "NTR",
+            "longname": "Nathrath"
+          }
+        ],
+        "su": [
+          {
+            "id": 129,
+            "name": "M  g4",
+            "longname": "Mathematik gk4"
+          }
+        ],
+        "ro": [
+          {
+            "id": 10,
+            "name": "K.0.18",
+            "longname": "06a Nathrath / Silva"
+          }
+        ]
+      },
+      {
+        "id": 2901232,
+        "date": 20260930,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_Mg4",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 453,
+            "name": "NTR",
+            "longname": "Nathrath"
+          }
+        ],
+        "su": [
+          {
+            "id": 129,
+            "name": "M  g4",
+            "longname": "Mathematik gk4"
+          }
+        ],
+        "ro": [
+          {
+            "id": 10,
+            "name": "K.0.18",
+            "longname": "06a Nathrath / Silva"
+          }
+        ]
+      },
+      {
+        "id": 2901235,
+        "date": 20260930,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_Mg4",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 453,
+            "name": "NTR",
+            "longname": "Nathrath"
+          }
+        ],
+        "su": [
+          {
+            "id": 129,
+            "name": "M  g4",
+            "longname": "Mathematik gk4"
+          }
+        ],
+        "ro": [
+          {
+            "id": 10,
+            "name": "K.0.18",
+            "longname": "06a Nathrath / Silva"
+          }
+        ]
+      },
+      {
+        "id": 2901778,
+        "date": 20260928,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_Mg5",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 149,
+            "name": "Lß",
+            "longname": "Leiß"
+          }
+        ],
+        "su": [
+          {
+            "id": 130,
+            "name": "M  g5",
+            "longname": "Mathematik gk5"
+          }
+        ],
+        "ro": [
+          {
+            "id": 44,
+            "name": "K.3.20",
+            "longname": "Mathematik"
+          }
+        ]
+      },
+      {
+        "id": 2901781,
+        "date": 20260928,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_Mg5",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 149,
+            "name": "Lß",
+            "longname": "Leiß"
+          }
+        ],
+        "su": [
+          {
+            "id": 130,
+            "name": "M  g5",
+            "longname": "Mathematik gk5"
+          }
+        ],
+        "ro": [
+          {
+            "id": 44,
+            "name": "K.3.20",
+            "longname": "Mathematik"
+          }
+        ]
+      },
+      {
+        "id": 2901784,
+        "date": 20260929,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_Mg5",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 149,
+            "name": "Lß",
+            "longname": "Leiß"
+          }
+        ],
+        "su": [
+          {
+            "id": 130,
+            "name": "M  g5",
+            "longname": "Mathematik gk5"
+          }
+        ],
+        "ro": []
+      },
+      {
+        "id": 2901787,
+        "date": 20260930,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_Mg5",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 149,
+            "name": "Lß",
+            "longname": "Leiß"
+          }
+        ],
+        "su": [
+          {
+            "id": 130,
+            "name": "M  g5",
+            "longname": "Mathematik gk5"
+          }
+        ],
+        "ro": [
+          {
+            "id": 44,
+            "name": "K.3.20",
+            "longname": "Mathematik"
+          }
+        ]
+      },
+      {
+        "id": 2911276,
+        "date": 20260929,
+        "startTime": 1500,
+        "endTime": 1545,
+        "sg": "EF_MUg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 92,
+            "name": "STR",
+            "longname": "Storch"
+          }
+        ],
+        "su": [
+          {
+            "id": 137,
+            "name": "MU g1",
+            "longname": "Musik gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 58,
+            "name": "Mu 2",
+            "longname": "Musik 2"
+          }
+        ]
+      },
+      {
+        "id": 2911279,
+        "date": 20261001,
+        "startTime": 1500,
+        "endTime": 1545,
+        "sg": "EF_MUg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 92,
+            "name": "STR",
+            "longname": "Storch"
+          }
+        ],
+        "su": [
+          {
+            "id": 137,
+            "name": "MU g1",
+            "longname": "Musik gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 58,
+            "name": "Mu 2",
+            "longname": "Musik 2"
+          }
+        ]
+      },
+      {
+        "id": 2911564,
+        "date": 20260929,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_MUg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 92,
+            "name": "STR",
+            "longname": "Storch"
+          }
+        ],
+        "su": [
+          {
+            "id": 138,
+            "name": "MU g2",
+            "longname": "Musik gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 450,
+            "name": "Anno-Salon",
+            "longname": "Anno-Salon"
+          }
+        ]
+      },
+      {
+        "id": 2911567,
+        "date": 20261001,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_MUg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 92,
+            "name": "STR",
+            "longname": "Storch"
+          }
+        ],
+        "su": [
+          {
+            "id": 138,
+            "name": "MU g2",
+            "longname": "Musik gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 58,
+            "name": "Mu 2",
+            "longname": "Musik 2"
+          }
+        ]
+      },
+      {
+        "id": 2911570,
+        "date": 20261001,
+        "startTime": 1415,
+        "endTime": 1500,
+        "sg": "EF_MUg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 92,
+            "name": "STR",
+            "longname": "Storch"
+          }
+        ],
+        "su": [
+          {
+            "id": 138,
+            "name": "MU g2",
+            "longname": "Musik gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 58,
+            "name": "Mu 2",
+            "longname": "Musik 2"
+          }
+        ]
+      },
+      {
+        "id": 2913220,
+        "date": 20260928,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_PAg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 60,
+            "name": "MLR",
+            "longname": "Müller"
+          }
+        ],
+        "su": [
+          {
+            "id": 144,
+            "name": "PA g1",
+            "longname": "Pädagogik gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 23,
+            "name": "K.1.18",
+            "longname": "K.1.18"
+          }
+        ]
+      },
+      {
+        "id": 2913223,
+        "date": 20260928,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_PAg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 60,
+            "name": "MLR",
+            "longname": "Müller"
+          }
+        ],
+        "su": [
+          {
+            "id": 144,
+            "name": "PA g1",
+            "longname": "Pädagogik gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 23,
+            "name": "K.1.18",
+            "longname": "K.1.18"
+          }
+        ]
+      },
+      {
+        "id": 2913226,
+        "date": 20261001,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_PAg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 60,
+            "name": "MLR",
+            "longname": "Müller"
+          }
+        ],
+        "su": [
+          {
+            "id": 144,
+            "name": "PA g1",
+            "longname": "Pädagogik gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 23,
+            "name": "K.1.18",
+            "longname": "K.1.18"
+          }
+        ]
+      },
+      {
+        "id": 2913634,
+        "date": 20260928,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_PAg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 45,
+            "name": "KRT",
+            "longname": "Kurtenbach"
+          }
+        ],
+        "su": [
+          {
+            "id": 145,
+            "name": "PA g2",
+            "longname": "Pädagogik gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 31,
+            "name": "K.3.01",
+            "longname": "Päda/SoWi"
+          }
+        ]
+      },
+      {
+        "id": 2913637,
+        "date": 20260930,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_PAg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 45,
+            "name": "KRT",
+            "longname": "Kurtenbach"
+          }
+        ],
+        "su": [
+          {
+            "id": 145,
+            "name": "PA g2",
+            "longname": "Pädagogik gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 31,
+            "name": "K.3.01",
+            "longname": "Päda/SoWi"
+          }
+        ]
+      },
+      {
+        "id": 2913640,
+        "date": 20260930,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_PAg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 45,
+            "name": "KRT",
+            "longname": "Kurtenbach"
+          }
+        ],
+        "su": [
+          {
+            "id": 145,
+            "name": "PA g2",
+            "longname": "Pädagogik gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 31,
+            "name": "K.3.01",
+            "longname": "Päda/SoWi"
+          }
+        ]
+      },
+      {
+        "id": 2914048,
+        "date": 20260928,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_PAg3",
+        "substText": "Eigenarbeit",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 0,
+            "name": "---",
+            "longname": "---"
+          }
+        ],
+        "su": [
+          {
+            "id": 146,
+            "name": "PA g3",
+            "longname": "Pädagogik gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 33,
+            "name": "K.3.03",
+            "longname": "Geschichte"
+          }
+        ]
+      },
+      {
+        "id": 2914051,
+        "date": 20260928,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_PAg3",
+        "substText": "Eigenarbeit",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 0,
+            "name": "---",
+            "longname": "---"
+          }
+        ],
+        "su": [
+          {
+            "id": 146,
+            "name": "PA g3",
+            "longname": "Pädagogik gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 33,
+            "name": "K.3.03",
+            "longname": "Geschichte"
+          }
+        ]
+      },
+      {
+        "id": 2914054,
+        "date": 20260930,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_PAg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 1,
+            "name": "AM",
+            "longname": "Amberg"
+          }
+        ],
+        "su": [
+          {
+            "id": 146,
+            "name": "PA g3",
+            "longname": "Pädagogik gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 33,
+            "name": "K.3.03",
+            "longname": "Geschichte"
+          }
+        ]
+      },
+      {
+        "id": 2917360,
+        "date": 20260929,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_PLg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 150,
+            "name": "TRI",
+            "longname": "Triller"
+          }
+        ],
+        "su": [
+          {
+            "id": 151,
+            "name": "PL g1",
+            "longname": "Philosophie gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 38,
+            "name": "K.3.08",
+            "longname": "Philosophie"
+          }
+        ]
+      },
+      {
+        "id": 2917363,
+        "date": 20260929,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_PLg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 150,
+            "name": "TRI",
+            "longname": "Triller"
+          }
+        ],
+        "su": [
+          {
+            "id": 151,
+            "name": "PL g1",
+            "longname": "Philosophie gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 38,
+            "name": "K.3.08",
+            "longname": "Philosophie"
+          }
+        ]
+      },
+      {
+        "id": 2917366,
+        "date": 20261002,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_PLg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 150,
+            "name": "TRI",
+            "longname": "Triller"
+          }
+        ],
+        "su": [
+          {
+            "id": 151,
+            "name": "PL g1",
+            "longname": "Philosophie gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 38,
+            "name": "K.3.08",
+            "longname": "Philosophie"
+          }
+        ]
+      },
+      {
+        "id": 2918188,
+        "date": 20260929,
+        "startTime": 1415,
+        "endTime": 1500,
+        "sg": "EF_PLg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 150,
+            "name": "TRI",
+            "longname": "Triller"
+          }
+        ],
+        "su": [
+          {
+            "id": 152,
+            "name": "PL g2",
+            "longname": "Philosophie gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 31,
+            "name": "K.3.01",
+            "longname": "Päda/SoWi"
+          },
+          {
+            "id": 147,
+            "name": "K.3.01a",
+            "longname": "Besprechungsraum"
+          },
+          {
+            "id": 38,
+            "name": "K.3.08",
+            "longname": "Philosophie"
+          }
+        ]
+      },
+      {
+        "id": 2918191,
+        "date": 20261001,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_PLg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 150,
+            "name": "TRI",
+            "longname": "Triller"
+          }
+        ],
+        "su": [
+          {
+            "id": 152,
+            "name": "PL g2",
+            "longname": "Philosophie gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 38,
+            "name": "K.3.08",
+            "longname": "Philosophie"
+          }
+        ]
+      },
+      {
+        "id": 2918194,
+        "date": 20261001,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_PLg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 150,
+            "name": "TRI",
+            "longname": "Triller"
+          }
+        ],
+        "su": [
+          {
+            "id": 152,
+            "name": "PL g2",
+            "longname": "Philosophie gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 38,
+            "name": "K.3.08",
+            "longname": "Philosophie"
+          }
+        ]
+      },
+      {
+        "id": 2918602,
+        "date": 20260928,
+        "startTime": 1415,
+        "endTime": 1500,
+        "sg": "EF_PLg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 469,
+            "name": "KRD",
+            "longname": "Kierdorf"
+          }
+        ],
+        "su": [
+          {
+            "id": 153,
+            "name": "PL g3",
+            "longname": "Philosophie gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 5,
+            "name": "K.0.08",
+            "longname": "05d Grande / Thieme"
+          }
+        ]
+      },
+      {
+        "id": 2918605,
+        "date": 20260928,
+        "startTime": 1500,
+        "endTime": 1545,
+        "sg": "EF_PLg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 469,
+            "name": "KRD",
+            "longname": "Kierdorf"
+          }
+        ],
+        "su": [
+          {
+            "id": 153,
+            "name": "PL g3",
+            "longname": "Philosophie gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 5,
+            "name": "K.0.08",
+            "longname": "05d Grande / Thieme"
+          }
+        ]
+      },
+      {
+        "id": 2918608,
+        "date": 20261001,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_PLg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 469,
+            "name": "KRD",
+            "longname": "Kierdorf"
+          }
+        ],
+        "su": [
+          {
+            "id": 153,
+            "name": "PL g3",
+            "longname": "Philosophie gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 32,
+            "name": "K.3.02",
+            "longname": "Deutsch"
+          }
+        ]
+      },
+      {
+        "id": 2925502,
+        "date": 20260929,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_PHg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 86,
+            "name": "SWI",
+            "longname": "Schwick"
+          }
+        ],
+        "su": [
+          {
+            "id": 158,
+            "name": "PH g1",
+            "longname": "Physik gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 59,
+            "name": "PhHS",
+            "longname": "Physik Hörsaal"
+          }
+        ]
+      },
+      {
+        "id": 2925505,
+        "date": 20260929,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_PHg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 86,
+            "name": "SWI",
+            "longname": "Schwick"
+          }
+        ],
+        "su": [
+          {
+            "id": 158,
+            "name": "PH g1",
+            "longname": "Physik gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 59,
+            "name": "PhHS",
+            "longname": "Physik Hörsaal"
+          }
+        ]
+      },
+      {
+        "id": 2925508,
+        "date": 20261002,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_PHg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 86,
+            "name": "SWI",
+            "longname": "Schwick"
+          }
+        ],
+        "su": [
+          {
+            "id": 158,
+            "name": "PH g1",
+            "longname": "Physik gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 59,
+            "name": "PhHS",
+            "longname": "Physik Hörsaal"
+          }
+        ]
+      },
+      {
+        "id": 2926330,
+        "date": 20260930,
+        "startTime": 1415,
+        "endTime": 1500,
+        "sg": "EF_PHg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 453,
+            "name": "NTR",
+            "longname": "Nathrath"
+          }
+        ],
+        "su": [
+          {
+            "id": 159,
+            "name": "PH g2",
+            "longname": "Physik gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 59,
+            "name": "PhHS",
+            "longname": "Physik Hörsaal"
+          }
+        ]
+      },
+      {
+        "id": 2926333,
+        "date": 20261002,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_PHg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 453,
+            "name": "NTR",
+            "longname": "Nathrath"
+          }
+        ],
+        "su": [
+          {
+            "id": 159,
+            "name": "PH g2",
+            "longname": "Physik gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 59,
+            "name": "PhHS",
+            "longname": "Physik Hörsaal"
+          }
+        ]
+      },
+      {
+        "id": 2926336,
+        "date": 20261002,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_PHg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 453,
+            "name": "NTR",
+            "longname": "Nathrath"
+          }
+        ],
+        "su": [
+          {
+            "id": 159,
+            "name": "PH g2",
+            "longname": "Physik gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 59,
+            "name": "PhHS",
+            "longname": "Physik Hörsaal"
+          }
+        ]
+      },
+      {
+        "id": 2926744,
+        "date": 20260929,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_PHg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 131,
+            "name": "LD",
+            "longname": "Leyendecker"
+          }
+        ],
+        "su": [
+          {
+            "id": 160,
+            "name": "PH g3",
+            "longname": "Physik gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 59,
+            "name": "PhHS",
+            "longname": "Physik Hörsaal"
+          }
+        ]
+      },
+      {
+        "id": 2926747,
+        "date": 20261002,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_PHg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 131,
+            "name": "LD",
+            "longname": "Leyendecker"
+          }
+        ],
+        "su": [
+          {
+            "id": 160,
+            "name": "PH g3",
+            "longname": "Physik gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 59,
+            "name": "PhHS",
+            "longname": "Physik Hörsaal"
+          }
+        ]
+      },
+      {
+        "id": 2926750,
+        "date": 20261002,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_PHg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 131,
+            "name": "LD",
+            "longname": "Leyendecker"
+          }
+        ],
+        "su": [
+          {
+            "id": 160,
+            "name": "PH g3",
+            "longname": "Physik gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 59,
+            "name": "PhHS",
+            "longname": "Physik Hörsaal"
+          }
+        ]
+      },
+      {
+        "id": 2931850,
+        "date": 20260930,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_SWbg1",
+        "substText": "Eigenarbeit",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 0,
+            "name": "---",
+            "longname": "---"
+          }
+        ],
+        "su": [
+          {
+            "id": 172,
+            "name": "SWbg1",
+            "longname": "Sozialwissensch. (bili) gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 150,
+            "name": "eigenständig",
+            "longname": "eigenständig"
+          }
+        ]
+      },
+      {
+        "id": 2931853,
+        "date": 20261002,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_SWbg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 450,
+            "name": "EKD",
+            "longname": "Eckhardt"
+          }
+        ],
+        "su": [
+          {
+            "id": 172,
+            "name": "SWbg1",
+            "longname": "Sozialwissensch. (bili) gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 42,
+            "name": "K.3.16",
+            "longname": "Englisch"
+          }
+        ]
+      },
+      {
+        "id": 2931856,
+        "date": 20261002,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_SWbg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 450,
+            "name": "EKD",
+            "longname": "Eckhardt"
+          }
+        ],
+        "su": [
+          {
+            "id": 172,
+            "name": "SWbg1",
+            "longname": "Sozialwissensch. (bili) gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 42,
+            "name": "K.3.16",
+            "longname": "Englisch"
+          }
+        ]
+      },
+      {
+        "id": 2932264,
+        "date": 20260929,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_SWbg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 170,
+            "name": "LNZ",
+            "longname": "Lenzer"
+          }
+        ],
+        "su": [
+          {
+            "id": 173,
+            "name": "SWbg2",
+            "longname": "Sozialwissensch. (bili) gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 41,
+            "name": "K.3.14",
+            "longname": "Englisch"
+          }
+        ]
+      },
+      {
+        "id": 2932267,
+        "date": 20261002,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_SWbg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 170,
+            "name": "LNZ",
+            "longname": "Lenzer"
+          }
+        ],
+        "su": [
+          {
+            "id": 173,
+            "name": "SWbg2",
+            "longname": "Sozialwissensch. (bili) gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 41,
+            "name": "K.3.14",
+            "longname": "Englisch"
+          }
+        ]
+      },
+      {
+        "id": 2932270,
+        "date": 20261002,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_SWbg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 170,
+            "name": "LNZ",
+            "longname": "Lenzer"
+          }
+        ],
+        "su": [
+          {
+            "id": 173,
+            "name": "SWbg2",
+            "longname": "Sozialwissensch. (bili) gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 41,
+            "name": "K.3.14",
+            "longname": "Englisch"
+          }
+        ]
+      },
+      {
+        "id": 2933506,
+        "date": 20260930,
+        "startTime": 1415,
+        "endTime": 1500,
+        "sg": "EF_SWg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 486,
+            "name": "GSL",
+            "longname": "Geisler"
+          }
+        ],
+        "su": [
+          {
+            "id": 174,
+            "name": "SW g1",
+            "longname": "Sozialwissensch. gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 37,
+            "name": "K.3.07",
+            "longname": "kath. Religion / Latein"
+          }
+        ]
+      },
+      {
+        "id": 2933509,
+        "date": 20261002,
+        "startTime": 800,
+        "endTime": 845,
+        "sg": "EF_SWg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 486,
+            "name": "GSL",
+            "longname": "Geisler"
+          }
+        ],
+        "su": [
+          {
+            "id": 174,
+            "name": "SW g1",
+            "longname": "Sozialwissensch. gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 37,
+            "name": "K.3.07",
+            "longname": "kath. Religion / Latein"
+          }
+        ]
+      },
+      {
+        "id": 2933512,
+        "date": 20261002,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_SWg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 486,
+            "name": "GSL",
+            "longname": "Geisler"
+          }
+        ],
+        "su": [
+          {
+            "id": 174,
+            "name": "SW g1",
+            "longname": "Sozialwissensch. gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 37,
+            "name": "K.3.07",
+            "longname": "kath. Religion / Latein"
+          }
+        ]
+      },
+      {
+        "id": 2934748,
+        "date": 20260929,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_SWg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 159,
+            "name": "WGE",
+            "longname": "Waage"
+          }
+        ],
+        "su": [
+          {
+            "id": 175,
+            "name": "SW g2",
+            "longname": "Sozialwissensch. gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 37,
+            "name": "K.3.07",
+            "longname": "kath. Religion / Latein"
+          }
+        ]
+      },
+      {
+        "id": 2934751,
+        "date": 20261002,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_SWg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 159,
+            "name": "WGE",
+            "longname": "Waage"
+          }
+        ],
+        "su": [
+          {
+            "id": 175,
+            "name": "SW g2",
+            "longname": "Sozialwissensch. gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 37,
+            "name": "K.3.07",
+            "longname": "kath. Religion / Latein"
+          }
+        ]
+      },
+      {
+        "id": 2934754,
+        "date": 20261002,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_SWg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 159,
+            "name": "WGE",
+            "longname": "Waage"
+          }
+        ],
+        "su": [
+          {
+            "id": 175,
+            "name": "SW g2",
+            "longname": "Sozialwissensch. gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 37,
+            "name": "K.3.07",
+            "longname": "kath. Religion / Latein"
+          }
+        ]
+      },
+      {
+        "id": 2949928,
+        "date": 20260928,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_SPg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 35,
+            "name": "KEH",
+            "longname": "Kehlenbach"
+          }
+        ],
+        "su": [
+          {
+            "id": 183,
+            "name": "SP g1",
+            "longname": "Sport gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 63,
+            "name": "Sp.H3",
+            "longname": "Sporthalle 3"
+          }
+        ]
+      },
+      {
+        "id": 2949931,
+        "date": 20261001,
+        "startTime": 955,
+        "endTime": 1040,
+        "sg": "EF_SPg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 35,
+            "name": "KEH",
+            "longname": "Kehlenbach"
+          }
+        ],
+        "su": [
+          {
+            "id": 183,
+            "name": "SP g1",
+            "longname": "Sport gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 61,
+            "name": "Sp.H1",
+            "longname": "Sporthalle 1"
+          }
+        ]
+      },
+      {
+        "id": 2949934,
+        "date": 20261001,
+        "startTime": 1040,
+        "endTime": 1125,
+        "sg": "EF_SPg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 35,
+            "name": "KEH",
+            "longname": "Kehlenbach"
+          }
+        ],
+        "su": [
+          {
+            "id": 183,
+            "name": "SP g1",
+            "longname": "Sport gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 61,
+            "name": "Sp.H1",
+            "longname": "Sporthalle 1"
+          }
+        ]
+      },
+      {
+        "id": 2950882,
+        "date": 20260929,
+        "startTime": 1500,
+        "endTime": 1545,
+        "sg": "EF_SPg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 492,
+            "name": "SLM",
+            "longname": "Salomon Cabrero"
+          }
+        ],
+        "su": [
+          {
+            "id": 184,
+            "name": "SP g2",
+            "longname": "Sport gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 61,
+            "name": "Sp.H1",
+            "longname": "Sporthalle 1"
+          }
+        ]
+      },
+      {
+        "id": 2950885,
+        "date": 20261001,
+        "startTime": 1500,
+        "endTime": 1545,
+        "sg": "EF_SPg2",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 492,
+            "name": "SLM",
+            "longname": "Salomon Cabrero"
+          }
+        ],
+        "su": [
+          {
+            "id": 184,
+            "name": "SP g2",
+            "longname": "Sport gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 61,
+            "name": "Sp.H1",
+            "longname": "Sporthalle 1"
+          }
+        ]
+      },
+      {
+        "id": 2951710,
+        "date": 20260928,
+        "startTime": 1600,
+        "endTime": 1700,
+        "sg": "EF_SPg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 19,
+            "name": "GL",
+            "longname": "Gleißner"
+          }
+        ],
+        "su": [
+          {
+            "id": 185,
+            "name": "SP g3",
+            "longname": "Sport gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 61,
+            "name": "Sp.H1",
+            "longname": "Sporthalle 1"
+          }
+        ]
+      },
+      {
+        "id": 2951713,
+        "date": 20261002,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_SPg3",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 19,
+            "name": "GL",
+            "longname": "Gleißner"
+          }
+        ],
+        "su": [
+          {
+            "id": 185,
+            "name": "SP g3",
+            "longname": "Sport gk3"
+          }
+        ],
+        "ro": [
+          {
+            "id": 63,
+            "name": "Sp.H3",
+            "longname": "Sporthalle 3"
+          }
+        ]
+      },
+      {
+        "id": 2952262,
+        "date": 20260930,
+        "startTime": 1500,
+        "endTime": 1545,
+        "sg": "EF_SPg4",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 472,
+            "name": "DRL",
+            "longname": "Dreßler"
+          }
+        ],
+        "su": [
+          {
+            "id": 186,
+            "name": "SP g4",
+            "longname": "Sport gk4"
+          }
+        ],
+        "ro": [
+          {
+            "id": 61,
+            "name": "Sp.H1",
+            "longname": "Sporthalle 1"
+          }
+        ]
+      },
+      {
+        "id": 2952265,
+        "date": 20261002,
+        "startTime": 1500,
+        "endTime": 1545,
+        "sg": "EF_SPg4",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 472,
+            "name": "DRL",
+            "longname": "Dreßler"
+          }
+        ],
+        "su": [
+          {
+            "id": 186,
+            "name": "SP g4",
+            "longname": "Sport gk4"
+          }
+        ],
+        "ro": [
+          {
+            "id": 61,
+            "name": "Sp.H1",
+            "longname": "Sporthalle 1"
+          }
+        ]
+      },
+      {
+        "id": 2952538,
+        "date": 20260930,
+        "startTime": 1600,
+        "endTime": 1700,
+        "sg": "EF_SPg5",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 472,
+            "name": "DRL",
+            "longname": "Dreßler"
+          }
+        ],
+        "su": [
+          {
+            "id": 187,
+            "name": "SP g5",
+            "longname": "Sport gk5"
+          }
+        ],
+        "ro": [
+          {
+            "id": 61,
+            "name": "Sp.H1",
+            "longname": "Sporthalle 1"
+          }
+        ]
+      },
+      {
+        "id": 2952541,
+        "date": 20261002,
+        "startTime": 1415,
+        "endTime": 1500,
+        "sg": "EF_SPg5",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 472,
+            "name": "DRL",
+            "longname": "Dreßler"
+          }
+        ],
+        "su": [
+          {
+            "id": 187,
+            "name": "SP g5",
+            "longname": "Sport gk5"
+          }
+        ],
+        "ro": [
+          {
+            "id": 62,
+            "name": "Sp.H2",
+            "longname": "Sporthalle 2"
+          }
+        ]
+      },
+      {
+        "id": 2987614,
+        "date": 20260929,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_Jg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 165,
+            "name": "KOL",
+            "longname": "Koll"
+          }
+        ],
+        "su": [
+          {
+            "id": 349,
+            "name": "J  g1",
+            "longname": "Japanisch gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 39,
+            "name": "K.3.10",
+            "longname": "Japanisch"
+          }
+        ]
+      },
+      {
+        "id": 2987617,
+        "date": 20260930,
+        "startTime": 1500,
+        "endTime": 1545,
+        "sg": "EF_Jg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 165,
+            "name": "KOL",
+            "longname": "Koll"
+          }
+        ],
+        "su": [
+          {
+            "id": 349,
+            "name": "J  g1",
+            "longname": "Japanisch gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 39,
+            "name": "K.3.10",
+            "longname": "Japanisch"
+          }
+        ]
+      },
+      {
+        "id": 2987620,
+        "date": 20261002,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_Jg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 165,
+            "name": "KOL",
+            "longname": "Koll"
+          }
+        ],
+        "su": [
+          {
+            "id": 349,
+            "name": "J  g1",
+            "longname": "Japanisch gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 39,
+            "name": "K.3.10",
+            "longname": "Japanisch"
+          }
+        ]
+      },
+      {
+        "id": 2987623,
+        "date": 20261002,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_Jg1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 165,
+            "name": "KOL",
+            "longname": "Koll"
+          }
+        ],
+        "su": [
+          {
+            "id": 349,
+            "name": "J  g1",
+            "longname": "Japanisch gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 39,
+            "name": "K.3.10",
+            "longname": "Japanisch"
+          }
+        ]
+      },
+      {
+        "id": 3020170,
+        "date": 20260929,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_I9g1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 59,
+            "name": "MSK",
+            "longname": "Mues-Kuttenkeuler"
+          }
+        ],
+        "su": [
+          {
+            "id": 652,
+            "name": "I9 g1",
+            "longname": "Italienisch gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 40,
+            "name": "K.3.12",
+            "longname": "Italienisch"
+          }
+        ]
+      },
+      {
+        "id": 3020173,
+        "date": 20260929,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_I9g1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 59,
+            "name": "MSK",
+            "longname": "Mues-Kuttenkeuler"
+          }
+        ],
+        "su": [
+          {
+            "id": 652,
+            "name": "I9 g1",
+            "longname": "Italienisch gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 40,
+            "name": "K.3.12",
+            "longname": "Italienisch"
+          }
+        ]
+      },
+      {
+        "id": 3020176,
+        "date": 20261002,
+        "startTime": 1330,
+        "endTime": 1415,
+        "sg": "EF_I9g1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 59,
+            "name": "MSK",
+            "longname": "Mues-Kuttenkeuler"
+          }
+        ],
+        "su": [
+          {
+            "id": 652,
+            "name": "I9 g1",
+            "longname": "Italienisch gk1"
+          }
+        ],
+        "ro": [
+          {
+            "id": 40,
+            "name": "K.3.12",
+            "longname": "Italienisch"
+          }
+        ]
+      },
+      {
+        "id": 3021562,
+        "date": 20260929,
+        "startTime": 850,
+        "endTime": 935,
+        "sg": "EF_I0g1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 173,
+            "name": "HEU",
+            "longname": "Heuchemer"
+          }
+        ],
+        "su": [
+          {
+            "id": 655,
+            "name": "I0 g1",
+            "longname": "Italienisch gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 40,
+            "name": "K.3.12",
+            "longname": "Italienisch"
+          }
+        ]
+      },
+      {
+        "id": 3021565,
+        "date": 20260930,
+        "startTime": 1500,
+        "endTime": 1545,
+        "sg": "EF_I0g1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 173,
+            "name": "HEU",
+            "longname": "Heuchemer"
+          }
+        ],
+        "su": [
+          {
+            "id": 655,
+            "name": "I0 g1",
+            "longname": "Italienisch gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 40,
+            "name": "K.3.12",
+            "longname": "Italienisch"
+          }
+        ]
+      },
+      {
+        "id": 3021568,
+        "date": 20261002,
+        "startTime": 1145,
+        "endTime": 1230,
+        "sg": "EF_I0g1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 173,
+            "name": "HEU",
+            "longname": "Heuchemer"
+          }
+        ],
+        "su": [
+          {
+            "id": 655,
+            "name": "I0 g1",
+            "longname": "Italienisch gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 40,
+            "name": "K.3.12",
+            "longname": "Italienisch"
+          }
+        ]
+      },
+      {
+        "id": 3021571,
+        "date": 20261002,
+        "startTime": 1230,
+        "endTime": 1315,
+        "sg": "EF_I0g1",
+        "substText": "",
+        "activityType": "Unterricht",
+        "code": "",
+        "kl": [
+          {
+            "id": 1117,
+            "name": "EF",
+            "longname": "Gleißner / Welzel"
+          }
+        ],
+        "te": [
+          {
+            "id": 173,
+            "name": "HEU",
+            "longname": "Heuchemer"
+          }
+        ],
+        "su": [
+          {
+            "id": 655,
+            "name": "I0 g1",
+            "longname": "Italienisch gk2"
+          }
+        ],
+        "ro": [
+          {
+            "id": 40,
+            "name": "K.3.12",
+            "longname": "Italienisch"
+          }
+        ]
+      }
+    ],
+    "settings": {
+      "hiddenCourses": {
+        "Biologie gk1|EF_BIg1|KLR": true,
+        "Biologie gk2|EF_BIg2|MZ": true,
+        "Biologie gk3|EF_BIg3|KNO": true,
+        "Biologie gk4|EF_BIg4|KLR": true,
+        "Chemie gk1|EF_CHg1|PTT": true,
+        "Chemie gk2|EF_CHg2|MR": false,
+        "Deutsch gk1|EF_Dg1|KRD": true,
+        "Deutsch gk2|EF_Dg2|MLR": false,
+        "Deutsch gk3|EF_Dg3|BAU": true,
+        "Deutsch gk4|EF_Dg4|KRD": true,
+        "Deutsch gk5|EF_Dg5|SÜ": true,
+        "Englisch gk1|EF_Eg1|WZ": true,
+        "Englisch gk2|EF_Eg2|WE": true,
+        "Englisch gk2|EF_Eg2|---": true,
+        "Englisch gk3|EF_Eg3|EGB": false,
+        "Englisch gk4|EF_Eg4|PAP": true,
+        "Englisch gk5|EF_Eg5|EKD": true,
+        "Englisch gk5|EF_Eg5|---": true,
+        "Erdkunde (bili) gk1|EF_EKbg1|PFE": true,
+        "Erdkunde gk1|EF_EKg1|AM": true,
+        "Erdkunde gk2|EF_EKg2|ENK": true,
+        "ev. Religion gk1|EF_ERg1|WCK": true,
+        "Französisch gk1|EF_Fg1|KRB": true,
+        "Geschichte bili|EF_GEbg1|FD": true,
+        "Geschichte bili|EF_GEbg2|TRN": true,
+        "Geschichte gk1|EF_GEg1|TH": true,
+        "Geschichte gk2|EF_GEg2|LO": true,
+        "Informatik gk1|EF_IFg1|WEI": false,
+        "kath. Religion gk1|EF_KRg1|GW": true,
+        "kath. Religion gk2|EF_KRg2|SBR": true,
+        "Kunst gk1|EF_KUg1|SLV": true,
+        "Kunst gk2|EF_KUg2|SO": true,
+        "Kunst gk3|EF_KUg3|SO": true,
+        "Kunst gk4|EF_KUg4|SO": true,
+        "Latein gk1|EF_Lg1|KRT": true,
+        "Latein gk2|EF_Lg2|RÖD": true,
+        "Mathematik gk1|EF_Mg1|WEI": true,
+        "Mathematik gk2|EF_Mg2|ABG": true,
+        "Mathematik gk3|EF_Mg3|GL": true,
+        "Mathematik gk4|EF_Mg4|NTR": false,
+        "Mathematik gk5|EF_Mg5|Lß": true,
+        "Musik gk1|EF_MUg1|STR": true,
+        "Musik gk2|EF_MUg2|STR": false,
+        "Pädagogik gk1|EF_PAg1|MLR": false,
+        "Pädagogik gk2|EF_PAg2|KRT": true,
+        "Pädagogik gk3|EF_PAg3|---": true,
+        "Pädagogik gk3|EF_PAg3|AM": true,
+        "Philosophie gk1|EF_PLg1|TRI": false,
+        "Philosophie gk2|EF_PLg2|TRI": true,
+        "Philosophie gk3|EF_PLg3|KRD": true,
+        "Physik gk1|EF_PHg1|SWI": true,
+        "Physik gk2|EF_PHg2|NTR": false,
+        "Physik gk3|EF_PHg3|LD": true,
+        "SoWi (bili) gk1|EF_SWbg1|---": true,
+        "SoWi (bili) gk2|EF_SWbg2|LNZ": true,
+        "SoWi gk1|EF_SWg1|GSL": true,
+        "SoWi gk2|EF_SWg2|WGE": false,
+        "Sport gk1|EF_SPg1|KEH": true,
+        "Sport gk2|EF_SPg2|SLM": true,
+        "Sport gk3|EF_SPg3|GL": true,
+        "Sport gk4|EF_SPg4|DRL": true,
+        "Sport gk5|EF_SPg5|DRL": false,
+        "Japanisch gk1|EF_Jg1|KOL": true,
+        "Italienisch gk1|EF_I9g1|MSK": true,
+        "Italienisch gk2|EF_I0g1|HEU": true
+      },
+      "eventsDisabled": false
+    }
+  }
+}

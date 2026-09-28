@@ -1,6 +1,6 @@
 {
   "ef": {
-    "lastUpdated": "2026-09-28T05:54:01.231Z",
+    "lastUpdated": "2026-09-28T06:05:45.484Z",
     "timetable": [
       {
         "id": 2765290,
@@ -1718,7 +1718,7 @@
         "startTime": 1145,
         "endTime": 1230,
         "sg": "EF_Eg5",
-        "substText": "",
+        "substText": "Eigenarbeit",
         "activityType": "Unterricht",
         "code": "",
         "kl": [
@@ -1730,9 +1730,9 @@
         ],
         "te": [
           {
-            "id": 450,
-            "name": "EKD",
-            "longname": "Eckhardt"
+            "id": 0,
+            "name": "---",
+            "longname": "---"
           }
         ],
         "su": [
@@ -1756,7 +1756,7 @@
         "startTime": 1230,
         "endTime": 1315,
         "sg": "EF_Eg5",
-        "substText": "",
+        "substText": "Eigenarbeit",
         "activityType": "Unterricht",
         "code": "",
         "kl": [
@@ -1768,9 +1768,9 @@
         ],
         "te": [
           {
-            "id": 450,
-            "name": "EKD",
-            "longname": "Eckhardt"
+            "id": 0,
+            "name": "---",
+            "longname": "---"
           }
         ],
         "su": [

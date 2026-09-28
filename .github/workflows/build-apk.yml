@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Set up Java JDK
+      - name: Set up Java
         uses: actions/setup-java@v4
         with:
           java-version: '17'
@@ -37,6 +37,7 @@ jobs:
           mkdir -p android/app/src/main/assets
           echo "[]" > android/app/src/main/assets/capacitor.plugins.json
           npx cap sync android
+          sed -i 's|distributionUrl=.*|distributionUrl=https\\://services.gradle.org/distributions/gradle-8.7-all.zip|' android/gradle/wrapper/gradle-wrapper.properties
 
       - name: Build APK with Gradle
         env:
@@ -52,4 +53,3 @@ jobs:
         with:
           name: planwerk-app
           path: android/app/build/outputs/apk/debug/app-debug.apk
-

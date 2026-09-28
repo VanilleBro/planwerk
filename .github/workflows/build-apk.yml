@@ -24,17 +24,19 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install Dependencies & Setup Capacitor
+      - name: Prepare Web Assets & Setup Capacitor
         run: |
+          mkdir -p www
+          cp index.html www/ 2>/dev/null || true
+          cp -r *.js *.css manifest.json www/ 2>/dev/null || true
           npm init -y
           npm install @capacitor/core @capacitor/cli @capacitor/android
-          npx cap init Planwerk com.planwerk.app --web-dir .
+          npx cap init Planwerk com.planwerk.app --web-dir www
           npx cap add android
           npx cap copy android
           mkdir -p android/app/src/main/assets
-          if [ ! -f android/app/src/main/assets/capacitor.plugins.json ]; then
-            echo "[]" > android/app/src/main/assets/capacitor.plugins.json
-          fi
+          echo "[]" > android/app/src/main/assets/capacitor.plugins.json
+          npx cap sync android
 
       - name: Build APK with Gradle
         run: |
@@ -48,4 +50,3 @@ jobs:
           name: planwerk-app
           path: android/app/build/outputs/apk/debug/app-debug.apk
 
-# Trigger new build

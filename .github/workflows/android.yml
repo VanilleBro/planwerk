@@ -1,0 +1,57 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Java JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Prepare Web Assets & Setup Capacitor
+        run: |
+          mkdir -p www
+          cp index.html www/ 2>/dev/null || true
+          cp -r *.js *.css manifest.json www/ 2>/dev/null || true
+          npm init -y
+          npm install @capacitor/core @capacitor/cli @capacitor/android
+          npx cap init Planwerk com.planwerk.app --web-dir www
+          npx cap add android
+          npx cap copy android
+          mkdir -p android/app/src/main/assets
+          echo "[]" > android/app/src/main/assets/capacitor.plugins.json
+          npx cap sync android
+
+      - name: Clean Gradle Caches
+        run: rm -rf ~/.gradle/caches/
+
+      - name: Build APK with Gradle
+        env:
+          GRADLE_OPTS: "-Dorg.gradle.daemon=false -Dorg.gradle.parallel=false -Dorg.gradle.jvmargs=\"-Xmx2048m -Dfile.encoding=UTF-8\""
+        run: |
+          cd android
+          chmod +x gradlew
+          ./gradlew clean assembleDebug --no-daemon --no-parallel
+
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: planwerk-app
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+
